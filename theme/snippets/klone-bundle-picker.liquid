@@ -1,0 +1,68 @@
+{% comment %}Custom presentation; Kaching remains the authority for prices, gifts and cart properties.{% endcomment %}
+{{ 'klone-bundle-picker.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'klone-bundle-picker.js' | asset_url }}" defer="defer"></script>
+{% assign bundle_product = all_products['klone-scent-collection'] %}
+<klone-bundle-picker class="kb" data-product-id="{{ bundle_product.id }}" {{ block.shopify_attributes }}>
+  <div class="kb__heading"><span></span><strong>BUILD YOUR BUNDLE</strong><span></span></div>
+  <div class="kb__offers" role="group" aria-label="Choose your bundle">
+    {% assign counts = '1,3,5' | split: ',' %}
+    {% assign prices = '3999,7999,11999' | split: ',' %}
+    {% assign titles = 'Buy 1|Buy 2, Get 1 Free|Buy 3, Get 2 Free' | split: '|' %}
+    {% for count in counts %}
+      {% assign index = forloop.index0 %}
+      <div class="kb__offer" data-count="{{ count }}">
+        {% if count == '3' %}<span class="kb__badge">MOST POPULAR</span>{% elsif count == '5' %}<span class="kb__badge kb__badge--value">BEST VALUE</span>{% endif %}
+        <label class="kb__offer-label">
+          <input type="radio" name="bundle-{{ section.id }}-{{ block.id }}" value="{{ count }}" {% if count == '5' %}checked{% endif %}>
+          <span class="kb__offer-copy"><strong>{{ titles[index] }}</strong><small>{% if count == '1' %}Your everyday signature{% elsif count == '3' %}3 bottles · Save {{ 3998 | money }}{% else %}5 bottles · Save {{ 7996 | money }}{% endif %}</small></span>
+          <span class="kb__offer-price"><strong data-offer-price>{{ prices[index] | plus: 0 | money }}</strong>{% if count == '3' %}<s>{{ 11997 | money }}</s>{% elsif count == '5' %}<s>{{ 19995 | money }}</s>{% endif %}</span>
+        </label>
+        <div class="kb__slots" {% unless count == '5' %}hidden{% endunless %}>
+          {% assign slot_count = count | plus: 0 %}
+          {% for slot in (1..slot_count) %}
+            <button type="button" class="kb__slot" data-slot="{{ forloop.index0 }}" aria-haspopup="dialog">
+              <span class="kb__number">SCENT<strong>{{ slot }}</strong></span>
+              <span class="kb__slot-card"><span class="kb__slot-image"></span><span class="kb__slot-copy"><strong>Choose your scent</strong><small>Explore all 8 fragrances</small></span><svg class="kb__chevron" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false" style="flex-shrink:0"><path d="m6 9 6 6 6-6"/></svg></span>
+            </button>
+          {% endfor %}
+        </div>
+        {% unless count == '1' %}<div class="kb__offer-gift">{% if count == '3' %}+ 1 FREE GIFT{% else %}+ 3 FREE GIFTS{% endif %}</div>{% endunless %}
+      </div>
+    {% endfor %}
+  </div>
+  {%- capture kb_lock -%}<span class="kb__lock" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></span>{%- endcapture -%}
+  <fieldset class="kb__gifts"><legend>✧ GIFTS UNLOCKED</legend>
+    <div class="kb__gift-grid">
+      <div class="kb__gift" data-unlock="3"><span class="kb__gift-art" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M1.5 4.5h13v12h-13zM14.5 8h4l4 4v4.5h-8M14.5 12h8"/><circle cx="5.5" cy="17" r="2" fill="white"/><circle cx="18.5" cy="17" r="2" fill="white"/></svg>{{ kb_lock }}</span><strong>Free Shipping</strong><small data-gift-status>Unlocked</small></div>
+      <div class="kb__gift" data-unlock="5"><span class="kb__gift-art">{% assign discovery = all_products['discovery-set'] %}{% if discovery.featured_image %}{{ discovery.featured_image | image_url: width: 100 | image_tag: loading: 'lazy', alt: 'Discovery Set', width: 50, height: 50 }}{% else %}✧{% endif %}{{ kb_lock }}</span><strong>Discovery Set</strong><small class="kb__gift-detail">5 × 10 ml</small><small data-gift-status>Unlocked</small></div>
+      <div class="kb__gift" data-unlock="5"><span class="kb__gift-art" aria-hidden="true"><span class="kb__gift-card">$15</span>{{ kb_lock }}</span><strong>$15 Gift Card</strong><small data-gift-status>Unlocked</small></div>
+    </div>
+    <p data-gift-message><strong>All 3 gifts unlocked.</strong> Included with your bundle.</p>
+  </fieldset>
+  <div class="kb__subtotal" aria-live="polite"><span class="kb__subtotal-price">Subtotal: <s data-compare>{{ 19995 | money }}</s> <strong data-total>{{ 11999 | money }}</strong></span><span class="kb__savings" data-savings-tag><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg><span data-savings>You're saving {{ 7996 | money }}</span></span></div>
+  <p class="kb__error" role="alert" hidden></p>
+  <button type="button" class="kb__add" disabled><span class="kb__add-label">Loading your bundle…</span><span class="kb__guarantee"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>30-Day Money-Back Guarantee</span></button>
+  <noscript><p>Please enable JavaScript to choose your bundle.</p></noscript>
+  <dialog class="kb__dialog" aria-labelledby="kb-title-{{ block.id }}">
+    <div class="kb__dialog-head"><div><small data-picker-label>SCENT 1</small><h2 id="kb-title-{{ block.id }}">Choose your scent</h2><p>Choose from our 8 designer-inspired fragrances.</p></div><button type="button" class="kb__close" aria-label="Close scent picker">×</button></div>
+    <div class="kb__choices">
+      {% assign scent_names = 'Rouge Atlantic|Imagine This|Royal Aventus|Nomad Magic|Blue Garden|Savage Essence|Barked Oud|Smoke Vanilla' | split: '|' %}
+      {% assign inspirations = 'Baccarat Rouge 540|Imagination|Aventus|Ombre Nomade|Layton|Sauvage|Oud Wood|Tabac* Vanille' | split: '|' %}
+      {% assign descriptions = 'Warm amber, rich cedarwood, and golden saffron. A warm, woody, sweet scent that creates an inviting pull and draws people closer.|Crisp bergamot, black tea, and warm amber. A crisp, clean, citrus scent that turns heads and keeps you sharp all day.|Crisp pineapple, smoky birch, and fresh bergamot. A bold, smoky, fruity-woody scent that commands instant presence and projects pure confidence.|Dark oud wood, smoky incense, and rich rose. A deep, smoky, mysterious scent that leaves a lasting impression and turns every head.|Crisp apple, warm cardamom, and sweet vanilla. A rich, spicy, sweet scent that gives you steady confidence and draws effortless compliments.|Sharp bergamot, spicy pepper, and warm ambroxan. A fresh, raw, magnetic scent that grabs attention and pulls effortless compliments all day.|Rare oud wood, warm cardamom, and creamy sandalwood. A rich, smooth, exotic woody scent that radiates quiet luxury and understated power.|Warm tobacco leaf, rich vanilla, and sweet cacao. A warm, sweet, smoky scent that creates cozy comfort and keeps people close.' | split: '|' %}
+      {% assign best_sellers = 'Rouge Atlantic|Imagine This|Royal Aventus' | split: '|' %}
+      {% for name in scent_names %}
+        {% assign index = forloop.index0 %}
+        {% assign match_name = name %}{% if name == 'Smoke Vanilla' %}{% assign match_name = 'Smoke Vanila' %}{% endif %}
+        {% assign scent_variant = nil %}
+        {% for variant in bundle_product.variants %}{% if variant.title contains match_name %}{% assign scent_variant = variant %}{% break %}{% endif %}{% endfor %}
+        {% assign image_name = name | handleize | prepend: 'bundle-' | append: '.webp' %}
+        <button type="button" class="kb__choice" data-variant="{{ scent_variant.id }}" data-name="{{ name | escape }}" data-inspiration="{{ inspirations[index] | escape }}" data-option="{{ scent_variant.option1 | escape }}" {% unless scent_variant.available %}disabled{% endunless %}>
+          <img src="{{ image_name | asset_url }}" alt="{{ name | escape }} fragrance" width="110" height="110" loading="lazy">
+          <span class="kb__choice-copy"><span class="kb__choice-name"><strong>{{ name }}</strong>{% if best_sellers contains name %}<span class="kb__tag">BEST SELLER</span>{% endif %}</span><span class="kb__inspiration">Smells like <strong>{{ inspirations[index] }}</strong></span><span class="kb__description">{{ descriptions[index] }}</span>{% unless scent_variant.available %}<span class="kb__choose">Sold out</span>{% endunless %}</span>
+          <span class="kb__check" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M20 6 9 17l-5-5"/></svg></span>
+        </button>
+      {% endfor %}
+    </div>
+    <div class="kb__scroll-hint" aria-hidden="true">Scroll for more scents <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M12 5v14M19 12l-7 7-7-7"/></svg></div>
+  </dialog>
+</klone-bundle-picker>

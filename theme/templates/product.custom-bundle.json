@@ -1,0 +1,2812 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "a6eb81db-40e4-43e0-972f-32db010a4a56": {
+          "type": "rating_stars",
+          "disabled": true,
+          "settings": {
+            "rating": 4.9,
+            "star_color": "#ffcc00",
+            "bg_stars_style": "full",
+            "bg_star_color": "#ececec",
+            "label": "721 Reviews",
+            "size": 16,
+            "alignment": "flex-start",
+            "scroll_id": "",
+            "margin_top": 0,
+            "margin_bottom": 9
+          }
+        },
+        "loox_reviews_loox_rating_YYPkQ3": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 14,
+            "pattern": "4.9/5 Rated (41,926 Reviews)",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": true,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "text_size": "h2",
+            "title_alignment": "left",
+            "uppercase_title": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "text_QEAWYa": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "mobile_text_size": 24,
+            "desktop_text_size": 26,
+            "alignment": "left",
+            "text_color": "#121212",
+            "text_1": "<strong>The All-Day Scents That Get You Noticed&nbsp;</strong>",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 3,
+            "margin_bottom": 9
+          }
+        },
+        "text_8aNd3L": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "mobile_text_size": 12,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#121212",
+            "text_1": "🌻<strong> Spring Sale: BUY 2 GET 1 FREE</strong>",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 100,
+            "icon_color": "#121212",
+            "icon_1": "",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "fit-content",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": true,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "text_njjzLr": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "mobile_text_size": 14,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#121212",
+            "text_1": "\"Inspired by <strong>{{ product.metafields.custom.scent.value }}</strong>",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "fit-content",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": true,
+            "bg_color": "#f9efe9",
+            "corner_radius": 25,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 9,
+            "margin_bottom": 15
+          }
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+            "layout": "price_first",
+            "price_color": "accent-1",
+            "compare_price_color": "text",
+            "hide_sale_badge": false,
+            "margin_top": 9,
+            "margin_bottom": 9
+          }
+        },
+        "text_g8n4UL": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "mobile_text_size": 14,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#121212",
+            "text_1": "Scent Family:<strong> </strong><strong>{{ product.metafields.custom.scent_family.value }}</strong>",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 12,
+            "margin_bottom": 9
+          }
+        },
+        "text_rRNdwh": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "mobile_text_size": 14,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#793701",
+            "text_1": "<em>Klone Scents Collection</em>",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 3,
+            "margin_bottom": 0
+          }
+        },
+        "custom_liquid_NjCthU": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<link href=\"https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,600;1,600&display=swap\" rel=\"stylesheet\">\n\n<style>\n  .klone-split-hl {\n    font-family: 'DM Sans', sans-serif;\n    padding: 12px 16px;\n  }\n  .klone-split-hl h2 {\n    font-size: 36px;\n    font-weight: 600;\n    line-height: 1.15;\n    letter-spacing: -0.02em;\n    color: #111111;\n    margin: 0;\n  }\n  .klone-split-hl .accent {\n    color: #B17742;\n    font-style: italic;\n  }\n</style>\n\n<div class=\"klone-split-hl\">\n  <h2>Colognes That <span class=\"accent\">Guarantee Compliments</span></h2>\n</div>"
+          }
+        },
+        "text_QBcQaF": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "mobile_text_size": 21,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#333333",
+            "text_1": "<strong>Colognes That </strong><em><strong>Guarantee Compliments</strong></em>",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 0,
+            "margin_bottom": 15
+          }
+        },
+        "text_UYhyfj": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 14,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#151515",
+            "text_1": "<em><strong>The compliment-magnet fragrances that makes you impossible to ignore</strong></em>&nbsp;",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "text_ieeNrM": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "mobile_text_size": 14,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#121212",
+            "text_1": "$26 per bottle",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "fit-content",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": true,
+            "bg_color": "#f9efe9",
+            "corner_radius": 25,
+            "padding": 3,
+            "border_size": 1,
+            "border_color": "#b7b7b7",
+            "margin_top": 0,
+            "margin_bottom": 15
+          }
+        },
+        "text_TaWYfC": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "mobile_text_size": 12,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#121212",
+            "text_1": "Eau de Parfum. Size: 50ml / 1.7oz",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 12,
+            "margin_bottom": 9
+          }
+        },
+        "text_Pwhmfc": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 14,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#121212",
+            "text_1": "Scent Lasts Up To 12 Hours",
+            "text_2": "Designer At Affordable Price",
+            "text_3": "Free Worldwide Shipping",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "check_circle",
+            "filled_icon_1": false,
+            "custom_icon_1": "shopify://shop_images/Untitled_design_10.svg",
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "custom_icon_2": "shopify://shop_images/Untitled_design_10.svg",
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "custom_icon_3": "shopify://shop_images/Untitled_design_10.svg",
+            "width": "100%",
+            "direction": "vertical",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "text_By4Fqi": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 12,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#121212",
+            "text_1": "<strong>Eau de Parfum.</strong><em> Size: 50ml / 1.7oz</em>",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 6,
+            "margin_bottom": 6
+          }
+        },
+        "product_info_dynamic_tyrP39": {
+          "type": "product_info_dynamic",
+          "disabled": true,
+          "settings": {
+            "main_heading": "Scent Profiles",
+            "items_count": 6,
+            "main_inner_heading": "Scent Chart",
+            "title_1": "Rouge Atlantic",
+            "desc_1": "<p><strong>✨ Saffron · 🌸 Jasmine · 🪵 Amberwood</strong></p><p><strong>Scent Profile: </strong>Warm, Sweet & Luxurious</p><p><strong>Full Note Breakdown:</strong></p><ul><li><strong>Top notes: </strong>Saffron · Jasmine</li><li><strong>Middle notes:</strong> Amberwood · Ambergris</li><li><strong>Base notes:</strong> Fir Resin · Cedar · Oakmoss</li></ul>",
+            "img_1": "shopify://shop_images/ROUGE_ATALANTIC_1.jpg",
+            "badge_1": "BEST SELLER",
+            "title_2": "Imagine This",
+            "desc_2": "<p><strong>Highlight Notes:</strong> 🍍 Pineapple · 🌿 Birch · 🍏 Apple</p><p><strong>Scent Profile:</strong> Fresh, Fruity & Smoky</p><p><strong>Full Note Breakdown:</strong></p><ul><li><strong>Top notes: </strong>Pineapple · Apple · Bergamot · Blackcurrant</li><li><strong>Middle notes:</strong> Birch · Patchouli · Jasmine · Rose</li><li><strong>Base notes: </strong>Oakmoss · Vanilla · Ambergris</li></ul>",
+            "img_2": "shopify://shop_images/IMAGINE_THIS_1.jpg",
+            "badge_2": "BEST SELLER",
+            "title_3": "Royal Aventus",
+            "desc_3": "<p><strong>Highlight Notes:</strong> 🍑 Lychee · 🌹 Turkish Rose · 🧁 Vanilla</p><p><strong>Scent Profile: </strong>Floral, Soft & Romantic</p><p><strong>Full Note Breakdown:</strong></p><ul><li><strong>Top notes:</strong> Lychee · Rhubarb · Bergamot</li><li><strong>Middle notes:</strong> Turkish Rose · Peony · Vanilla</li><li><strong>Base notes: </strong>Cashmeran · Musk · Vetiver</li></ul>",
+            "img_3": "shopify://shop_images/ROYALAVENTUS_1f11c12e-0da1-4620-9691-d8ff30168fbb.jpg",
+            "badge_3": "BEST SELLER",
+            "title_4": "Nomad Magic",
+            "desc_4": "<p><strong>Highlight Notes:</strong> 🪵 Oud · 🌹 Rose · 🔥 Incense</p><p><strong>Scent Profile:</strong> Smoky, Woody & Resinous</p><p><strong>Full Note Breakdown:</strong></p><ul><li><strong>Top notes:</strong> Oud · Incense</li><li><strong>Middle notes: </strong>Rose · Raspberry · Saffron</li><li><strong>Base notes: </strong>Amberwood · Benzoin · Birch</li></ul>",
+            "img_4": "shopify://shop_images/NOMAD_MAGIC_1.jpg",
+            "badge_4": "",
+            "title_5": "Barked Oud",
+            "desc_5": "<p><strong>Highlight Notes: </strong>🪵 Oud · 🌿 Cardamom · 🧴 Sandalwood</p><p><strong>Scent Profile:</strong> Woody, Smooth & Spicy</p><p><strong>Full Note Breakdown:</strong></p><ul><li><strong>Top notes:</strong> Cardamom · Pepper</li><li><strong>Middle notes:</strong> Oud · Vetiver · Sandalwood</li><li><strong>Base notes: </strong>Vanilla · Tonka Bean · Amber</li></ul>",
+            "img_5": "shopify://shop_images/33RD_SAINT.jpg",
+            "badge_5": "",
+            "title_6": "Ocean Dive",
+            "desc_6": "<p><strong>Highlight Notes: </strong>🍊 Sicilian Orange · 🌿 Bergamot · 🌊 Ambergris</p><p><strong>Scent Profile: </strong>Fresh, Bright & Aquatic</p><p><strong>Full Note Breakdown:</strong></p><ul><li><strong>Top notes:</strong> Sicilian Orange · Mandarin · Bergamot</li><li><strong>Middle notes:</strong> Ginger</li><li><strong>Base notes</strong>: Ambergris</li></ul>",
+            "img_6": "shopify://shop_images/INTENSITE.jpg",
+            "badge_6": "LIMITED RELEASE",
+            "title_7": "",
+            "desc_7": "",
+            "badge_7": "",
+            "title_8": "",
+            "desc_8": "",
+            "badge_8": "",
+            "title_9": "",
+            "desc_9": "",
+            "badge_9": "",
+            "title_10": "",
+            "desc_10": "",
+            "badge_10": ""
+          }
+        },
+        "product_info_dynamic_Nkfptw": {
+          "type": "product_info_dynamic",
+          "disabled": true,
+          "settings": {
+            "main_heading": "Scent Guide",
+            "items_count": 6,
+            "main_inner_heading": "Scent Chart",
+            "title_1": "Rouge Atlanic",
+            "desc_1": "<p>Saffron, jasmine, and amberwood create a warm, luxurious scent.</p>",
+            "img_1": "shopify://shop_images/ROUGE_ATALANTIC_1.jpg",
+            "badge_1": "BEST SELLER",
+            "title_2": "Image This",
+            "desc_2": "<p>Citrus, neroli, and ambrox deliver a fresh, confident scent.</p>",
+            "img_2": "shopify://shop_images/IMAGINE_THIS_1.jpg",
+            "badge_2": "BEST SELLER",
+            "title_3": "Delina",
+            "desc_3": "<p>Turkish rose, lychee, and vanilla offer a soft, romantic aroma.</p>",
+            "img_3": "shopify://shop_images/GAULTIER_S_ARMOR.jpg",
+            "badge_3": "BEST SELLER",
+            "title_4": "Nomad Magic",
+            "desc_4": "<p>Oud, rose, and incense blend for a deep, mysterious fragrance.</p>",
+            "img_4": "shopify://shop_images/NOMAD_MAGIC_1.jpg",
+            "badge_4": "",
+            "title_5": "Cherry Blossom",
+            "desc_5": "<p>Cherry, almond, and vanilla create a sweet, sensual scent.</p>",
+            "img_5": "shopify://shop_images/33RD_SAINT.jpg",
+            "badge_5": "",
+            "title_6": "Ocean Dive",
+            "desc_6": "<p>Orange, bergamot, and mandarin create a bright, sunlit freshness.</p>",
+            "img_6": "shopify://shop_images/INTENSITE.jpg",
+            "badge_6": "LIMITED RELEASE",
+            "title_7": "",
+            "desc_7": "",
+            "badge_7": "",
+            "title_8": "",
+            "desc_8": "",
+            "badge_8": "",
+            "title_9": "",
+            "desc_9": "",
+            "badge_9": "",
+            "title_10": "",
+            "desc_10": "",
+            "badge_10": ""
+          }
+        },
+        "bundle_builder_p9DLyQ": {
+          "type": "bundle_builder",
+          "disabled": true,
+          "settings": {
+            "pack1_heading": "1 Pack",
+            "pack1_subheading": "",
+            "pack1_badge": "",
+            "pack2_heading": "Buy 2 get 1 free",
+            "pack2_subheading": "3 Bottles",
+            "pack2_badge": "Most Popular",
+            "pack3_heading": "Buy 3 get 2 free",
+            "pack3_subheading": "5 Bottles",
+            "pack3_badge": "Biggest Savings",
+            "bundle_products": [
+              "rouge-atlantic",
+              "imagine-this",
+              "royal-aventus",
+              "nomad-magic",
+              "barked-oud",
+              "ocean-dive"
+            ],
+            "image_source": "metafield",
+            "show_product_description": true,
+            "show_bundle_description": true,
+            "bundle_head_font_size": 14,
+            "bundle_sub_head_font_size": 10,
+            "bundle_pro_p_font_size": 13,
+            "addtocart_font_size": 19,
+            "left_addtocart_font_size": 14,
+            "right_addtocart_font_size": 10,
+            "bb_top_padding": 11,
+            "bb_bottom_padding": 11
+          }
+        },
+        "custom_liquid_daJ8M4": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n.bundle-pack-options {\n    flex-direction: row-reverse;\n}\n</style>"
+          }
+        },
+        "text_eLcxhE": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "mobile_text_size": 14,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#121212",
+            "text_1": "<strong>Long Lasting</strong>",
+            "text_2": "<strong>At Fraction Cost</strong>",
+            "text_3": "",
+            "icon_scale": 160,
+            "icon_color": "#121212",
+            "icon_1": "check_circle",
+            "filled_icon_1": false,
+            "custom_icon_1": "shopify://shop_images/Add_a_subheading_16.png",
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "custom_icon_2": "shopify://shop_images/Add_a_subheading_17.png",
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 15,
+            "margin_bottom": 21
+          }
+        },
+        "quantity_selector_wxxQ9P": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+            "full_width_classic": false,
+            "enable_quantity_discounts": true,
+            "style": "normal",
+            "headline": "☀️ SUMMER SALE ☀️",
+            "preselected": "option_2",
+            "update_prices": false,
+            "enable_variant_selectors": true,
+            "enable_variant_selectors_on_quantity_of_1": true,
+            "hide_pickers_overlay": true,
+            "pickers_label": "",
+            "image_width": 70,
+            "space_images": true,
+            "color_scheme": "accent-1",
+            "option_1_quantity": 1,
+            "option_1_badge": "",
+            "option_1_label": "Buy One",
+            "option_1_benefit": "",
+            "option_1_caption": "",
+            "option_1_percentage_off_text": "0",
+            "option_1_fixed_amount_off": "0",
+            "option_1_price_text": "[price]",
+            "option_1_compare_price": "compare_price",
+            "option_1_compare_price_text": "[compare_price]",
+            "option_2_quantity": 3,
+            "option_2_badge": "Most Popular",
+            "option_2_label": "Buy 2 Get 1 Free",
+            "option_2_benefit": "",
+            "option_2_caption": "You save $40",
+            "option_2_percentage_off_text": "0",
+            "option_2_fixed_amount_off": "0",
+            "option_2_price_text": "$79.98",
+            "option_2_compare_price": "compare_price",
+            "option_2_compare_price_text": "119.99",
+            "option_3_quantity": 5,
+            "option_3_badge": "",
+            "option_3_label": "Buy 3 Get 2 Free",
+            "option_3_benefit": "",
+            "option_3_caption": "You save $80",
+            "option_3_percentage_off_text": "0",
+            "option_3_fixed_amount_off": "0",
+            "option_3_price_text": "$119.97",
+            "option_3_compare_price": "compare_price",
+            "option_3_compare_price_text": "[compare_price]",
+            "option_4_quantity": 0,
+            "option_4_badge": "",
+            "option_4_label": "Buy [quantity]",
+            "option_4_benefit": "",
+            "option_4_caption": "You save [amount_saved]",
+            "option_4_percentage_off_text": "0",
+            "option_4_fixed_amount_off": "0",
+            "option_4_price_text": "[price]",
+            "option_4_compare_price": "compare_price",
+            "option_4_compare_price_text": "[compare_price]",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "product_upsell_mEcFbf": {
+          "type": "product_upsell",
+          "disabled": true,
+          "settings": {
+            "style": "toggle_switch",
+            "btn_position": "right",
+            "toggle_element": "button",
+            "stacking": "row",
+            "accent_color": "accent-1",
+            "color_scheme": "background-1",
+            "product_list": [
+              "gift-set"
+            ],
+            "prdouct_1_preselected": false,
+            "product_1_desc": "Add a 5x 10ml set for 20% OFF TODAY ONLY",
+            "product_1_percentage_discount": "",
+            "product_1_fixed_amount_discount": "0",
+            "prdouct_2_preselected": false,
+            "product_2_desc": "",
+            "product_2_percentage_discount": "0",
+            "product_2_fixed_amount_discount": "0",
+            "prdouct_3_preselected": false,
+            "product_3_desc": "",
+            "product_3_percentage_discount": "0",
+            "product_3_fixed_amount_discount": "0",
+            "show_images": true,
+            "images_size": "5",
+            "images_corner_radius": 0,
+            "title_size": "1.4",
+            "title_link": false,
+            "desc_size": "1.2",
+            "price_position": "next_to_title",
+            "price_size": "1.4",
+            "update_prices": false,
+            "hide_compare_price": false,
+            "show_variant_picker": true,
+            "corner_radius": 0,
+            "show_box_shadow": false,
+            "show_border": false,
+            "regular_border_color": "#e6e6e6",
+            "selected_border_color": "#6d388b",
+            "show_custom_bg": false,
+            "regular_bg_color": "#f2f2f2",
+            "selected_bg_color": "#f2f2f2",
+            "margin_top": 21,
+            "margin_bottom": 21
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "skip_cart": false,
+            "uppercase_text": false,
+            "icon_scale": 120,
+            "icon_spacing": 10,
+            "display_price": false,
+            "enable_custom_color": true,
+            "custom_color": "#191919",
+            "enable_secondary_btn": false,
+            "secondary_btn_label": "Buy It Now",
+            "secondary_btn_enable_custom_color": false,
+            "secondary_btn_custom_color": "#dd1d1d",
+            "margin_top": 24,
+            "margin_bottom": 18
+          }
+        },
+        "custom_liquid_BfXEBQ": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!-- Klone Scents — Guarantee Row | Shopify Custom HTML Block -->\n<!-- Paste into: Online Store → Themes → Customize → Add block → Custom HTML -->\n<!-- Place this block directly BELOW your Add to Cart button block -->\n\n<link href=\"https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap\" rel=\"stylesheet\">\n\n<div class=\"klone-guarantee\">\n  <div class=\"klone-guarantee__icon\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"44\" height=\"44\" viewBox=\"0 0 187.5 187.499992\" preserveAspectRatio=\"xMidYMid meet\" version=\"1.0\"><defs><clipPath id=\"46c303de17\"><path d=\"M 13.257812 10.238281 L 174 10.238281 L 174 177 L 13.257812 177 Z M 13.257812 10.238281 \" clip-rule=\"nonzero\"/></clipPath></defs><path fill=\"#b17742\" d=\"M 81.792969 112.097656 C 84.84375 115.148438 90.152344 115.148438 93.207031 112.097656 L 119.269531 86.035156 C 120.792969 84.511719 121.636719 82.484375 121.636719 80.328125 C 121.636719 78.171875 120.796875 76.148438 119.269531 74.625 C 116.226562 71.574219 110.910156 71.574219 107.859375 74.625 L 88.5625 93.917969 C 87.976562 94.503906 87.023438 94.503906 86.433594 93.917969 L 79.460938 86.945312 C 77.933594 85.421875 75.910156 84.582031 73.753906 84.582031 C 71.597656 84.582031 69.570312 85.421875 68.042969 86.945312 C 66.519531 88.46875 65.679688 90.496094 65.679688 92.652344 C 65.679688 94.804688 66.515625 96.832031 68.042969 98.355469 L 81.789062 112.101562 Z M 81.792969 112.097656 \" fill-opacity=\"1\" fill-rule=\"nonzero\"/><g clip-path=\"url(#46c303de17)\"><path fill=\"#b17742\" d=\"M 17.402344 87.074219 C 18.683594 91.15625 18.683594 95.597656 17.410156 99.597656 L 14.507812 108.425781 C 12.238281 115.445312 14.832031 123.359375 20.816406 127.675781 L 28.28125 133.125 C 31.671875 135.574219 34.285156 139.179688 35.625 143.277344 L 38.464844 152.039062 C 40.800781 159.164062 47.410156 163.953125 54.898438 163.953125 L 64.125 163.953125 C 68.433594 163.953125 72.566406 165.300781 76.074219 167.847656 L 83.519531 173.226562 C 88.75 177.046875 95.5625 177.605469 101.308594 174.707031 C 102.1875 174.316406 102.984375 173.847656 103.816406 173.238281 L 111.28125 167.847656 C 114.71875 165.300781 118.832031 163.953125 123.164062 163.953125 L 132.390625 163.953125 C 139.9375 163.953125 146.539062 159.167969 148.820312 152.042969 L 151.660156 143.285156 C 153.035156 139.097656 155.601562 135.585938 159.085938 133.117188 L 166.523438 127.683594 C 172.582031 123.320312 175.09375 115.578125 172.78125 108.421875 C 172.78125 108.421875 169.945312 99.605469 169.945312 99.605469 C 168.609375 95.605469 168.609375 91.152344 169.945312 87.078125 L 172.777344 78.328125 C 175.074219 71.179688 172.558594 63.414062 166.519531 59.011719 L 159.066406 53.566406 C 155.585938 51.097656 153.015625 47.601562 151.660156 43.472656 L 148.820312 34.714844 C 146.523438 27.550781 139.921875 22.738281 132.386719 22.738281 L 123.160156 22.738281 C 118.863281 22.738281 114.75 21.414062 111.277344 18.90625 L 103.816406 13.457031 C 102.980469 12.847656 102.1875 12.378906 101.378906 12.027344 C 95.554688 9.085938 88.746094 9.648438 83.527344 13.457031 L 76.074219 18.898438 C 72.519531 21.417969 68.394531 22.738281 64.121094 22.738281 L 54.894531 22.738281 C 47.414062 22.738281 40.808594 27.554688 38.457031 34.71875 L 35.625 43.46875 C 34.273438 47.578125 31.730469 51.066406 28.269531 53.570312 L 20.820312 59.007812 C 14.757812 63.433594 12.222656 71.199219 14.507812 78.328125 L 17.398438 87.070312 Z M 93.660156 28.410156 C 129.472656 28.410156 158.605469 57.546875 158.605469 93.359375 C 158.605469 129.167969 129.46875 158.304688 93.660156 158.304688 C 57.847656 158.304688 28.714844 129.167969 28.714844 93.359375 C 28.714844 57.546875 57.847656 28.410156 93.660156 28.410156 Z M 93.660156 28.410156 \" fill-opacity=\"1\" fill-rule=\"nonzero\"/></g><path fill=\"#b17742\" d=\"M 93.660156 155.296875 C 127.8125 155.296875 155.59375 127.511719 155.59375 93.359375 C 155.59375 59.210938 127.808594 31.425781 93.660156 31.425781 C 59.511719 31.425781 31.722656 59.210938 31.722656 93.359375 C 31.722656 127.511719 59.511719 155.296875 93.660156 155.296875 Z M 93.660156 40.332031 C 122.898438 40.332031 146.683594 64.121094 146.683594 93.359375 C 146.683594 122.601562 122.898438 146.390625 93.660156 146.390625 C 64.421875 146.390625 40.628906 122.601562 40.628906 93.359375 C 40.628906 64.121094 64.417969 40.332031 93.660156 40.332031 Z M 93.660156 40.332031 \" fill-opacity=\"1\" fill-rule=\"nonzero\"/><path fill=\"#b17742\" d=\"M 93.660156 143.378906 C 121.238281 143.378906 143.671875 120.941406 143.671875 93.359375 C 143.671875 65.78125 121.238281 43.34375 93.660156 43.34375 C 66.082031 43.34375 43.640625 65.78125 43.640625 93.359375 C 43.640625 120.941406 66.082031 143.378906 93.660156 143.378906 Z M 65.914062 84.8125 C 70.101562 80.625 77.398438 80.625 81.585938 84.8125 L 87.5 90.722656 L 105.730469 72.496094 C 109.914062 68.304688 117.21875 68.308594 121.398438 72.496094 C 123.492188 74.585938 124.644531 77.371094 124.644531 80.328125 C 124.644531 83.289062 123.492188 86.070312 121.398438 88.164062 L 95.335938 114.226562 C 93.242188 116.320312 90.460938 117.472656 87.5 117.472656 C 84.535156 117.472656 81.757812 116.320312 79.660156 114.226562 L 65.914062 100.480469 C 63.820312 98.390625 62.667969 95.605469 62.667969 92.648438 C 62.667969 89.6875 63.820312 86.90625 65.914062 84.8125 Z M 65.914062 84.8125 \" fill-opacity=\"1\" fill-rule=\"nonzero\"/></svg>\n  </div>\n  <p class=\"klone-guarantee__text\">\n    <strong>Try it for 30 days, risk-free.</strong> If you're not absolutely happy, we'll give you a full refund!\n  </p>\n</div>\n\n<style>\n  .klone-guarantee {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n    padding: 0;\n    margin: 6px 0;\n    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n  }\n\n  .klone-guarantee__icon {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    flex-shrink: 0;\n    min-width: 44px;\n  }\n  .klone-guarantee__text {\n    margin: 0;\n    font-size: 13px;\n    font-weight: 400;\n    color: #1f2937;\n    line-height: 1.35;\n    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n  }\n  .klone-guarantee__text strong {\n    font-weight: 700;\n    color: #1f2937;\n  }\n\n  /* ── Mobile ── */\n  @media (max-width: 480px) {\n    .klone-guarantee { gap: 8px; margin: 4px 0; }\n    .klone-guarantee__icon { min-width: 36px; }\n    .klone-guarantee__icon svg { width: 50px; height: 50px; }\n    .klone-guarantee__text { font-size: 12px; line-height: 1.2; letter-spacing: 0.02em;}\n  }\n.klone-guarantee {\n  margin-bottom: 23px;  /* Bottom padding */\n}\n</style>"
+          }
+        },
+        "custom_liquid_Nmdydw": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!-- Klone Scents — Video Testimonial Grid (Sequential Autoplay) | Shopify Custom HTML Block -->\n<!-- Paste into: Online Store → Themes → Customize → Add block → Custom HTML -->\n<!-- Place this block directly BELOW your Guarantee row block -->\n<!--\n  HOW TO ADD YOUR VIDEOS:\n  1. Videos are already set to your Shopify CDN URLs below — no changes needed.\n  2. To update a video, replace the src=\"\" value on each <video> element.\n  3. To update a caption, edit the text inside <div class=\"klone-vids__caption\">.\n  4. Autoplay behaviour: each clip plays for 3 seconds one by one, then loops.\n     Tapping any thumbnail opens it fullscreen in the lightbox.\n-->\n\n<link href=\"https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap\" rel=\"stylesheet\">\n\n<div class=\"klone-vids\" id=\"kloneVidsGrid\">\n\n  <!-- Video 1 -->\n  <div class=\"klone-vids__item\" onclick=\"kloneOpenLightbox(0)\">\n    <div class=\"klone-vids__thumb\">\n      <video\n        class=\"klone-vids__video\"\n        data-klone-index=\"0\"\n        src=\"https://cdn.shopify.com/videos/c/o/v/7cc64121c9554a9582e2d072805c7c8d.mov\"\n        poster=\"https://cdn.shopify.com/s/files/1/0706/7726/6653/files/Screenshot_2026-04-19_at_9.51.55_PM.png?v=1776649924\"\n        muted\n        playsinline\n        preload=\"none\"\n      ></video>\n    </div>\n    <div class=\"klone-vids__caption\">Smells Like Designer</div>\n  </div>\n\n  <!-- Video 2 -->\n  <div class=\"klone-vids__item\" onclick=\"kloneOpenLightbox(1)\">\n    <div class=\"klone-vids__thumb\">\n      <video\n        class=\"klone-vids__video\"\n        data-klone-index=\"1\"\n        src=\"https://cdn.shopify.com/videos/c/o/v/c8ad439afddd4c24966472ee2fb9bca5.mov\"\n        poster=\"https://cdn.shopify.com/s/files/1/0706/7726/6653/files/Screenshot_2026-04-19_at_10.21.42_PM.png?v=1776651708\"\n        muted\n        playsinline\n        preload=\"none\"\n      ></video>\n    </div>\n    <div class=\"klone-vids__caption\">Lasts All Day</div>\n  </div>\n\n  <!-- Video 3 -->\n  <div class=\"klone-vids__item\" onclick=\"kloneOpenLightbox(2)\">\n    <div class=\"klone-vids__thumb\">\n      <video\n        class=\"klone-vids__video\"\n        data-klone-index=\"2\"\n        src=\"https://cdn.shopify.com/videos/c/o/v/237241bfae684c619b75cb34719ae8d9.mov\"\n        poster=\"https://cdn.shopify.com/s/files/1/0706/7726/6653/files/Screenshot_2026-04-19_at_10.06.30_PM.png?v=1776650796\"\n        muted\n        playsinline\n        preload=\"none\"\n      ></video>\n    </div>\n    <div class=\"klone-vids__caption\">Confidence Booster</div>\n  </div>\n\n  <!-- Video 4 -->\n  <div class=\"klone-vids__item\" onclick=\"kloneOpenLightbox(3)\">\n    <div class=\"klone-vids__thumb\">\n      <video\n        class=\"klone-vids__video\"\n        data-klone-index=\"3\"\n        src=\"https://cdn.shopify.com/videos/c/o/v/d0a48301eb1b42f78b697db1c840edac.mov\"\n        poster=\"https://cdn.shopify.com/s/files/1/0706/7726/6653/files/Screenshot_2026-04-19_at_9.43.48_PM.png?v=1776649436\"\n        muted\n        playsinline\n        preload=\"none\"\n      ></video>\n    </div>\n    <div class=\"klone-vids__caption\">High Quality Ingredients</div>\n  </div>\n\n</div>\n\n<!-- Fullscreen lightbox overlay -->\n<div class=\"klone-vids__lightbox\" id=\"kloneLightbox\" onclick=\"kloneCloseLightbox()\">\n  <button class=\"klone-vids__close\" onclick=\"kloneCloseLightbox()\">&#x2715;</button>\n  <video\n    class=\"klone-vids__lightbox-video\"\n    id=\"kloneLightboxVideo\"\n    controls\n    playsinline\n    loop\n    onclick=\"event.stopPropagation()\"\n  ></video>\n</div>\n\n<style>\n  .klone-vids {\n    display: flex;\n    gap: 8px;\n    justify-content: flex-start;\n    margin: 10px 0;\n    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n  }\n\n  .klone-vids__item {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    flex: 1;\n    max-width: 25%;\n    cursor: pointer;\n  }\n\n  .klone-vids__thumb {\n    position: relative;\n    width: 100%;\n    aspect-ratio: 3 / 4;\n    background-color: #f3f4f6;\n    border-radius: 6px;\n    overflow: hidden;\n  }\n\n  .klone-vids__video {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    display: block;\n  }\n\n  .klone-vids__caption {\n    margin-top: 4px;\n    font-size: 12px;\n    font-weight: 700;\n    text-align: center;\n    color: #000;\n    line-height: 1.3;\n    letter-spacing: -0.01em;\n    width: 100%;\n    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n  }\n\n  /* Lightbox */\n  .klone-vids__lightbox {\n    display: none;\n    position: fixed;\n    inset: 0;\n    z-index: 99999;\n    background: rgba(0, 0, 0, 0.92);\n    align-items: center;\n    justify-content: center;\n  }\n\n  .klone-vids__lightbox.is-open {\n    display: flex;\n  }\n\n  .klone-vids__lightbox-video {\n    max-width: 90vw;\n    max-height: 85vh;\n    border-radius: 8px;\n  }\n\n  .klone-vids__close {\n    position: absolute;\n    top: 16px;\n    right: 20px;\n    background: none;\n    border: none;\n    color: #fff;\n    font-size: 24px;\n    cursor: pointer;\n    line-height: 1;\n    padding: 4px 8px;\n  }\n\n  /* Mobile */\n  @media (max-width: 480px) {\n    .klone-vids { gap: 6px; }\n    .klone-vids__caption { font-size: 11px; }\n  }\n</style>\n\n<script>\n(function () {\n  // ─── Config ──────────────────────────────────────────────────────────────\n  var PREVIEW_DURATION = 3000;  // ms each clip plays before moving to next\n  var INITIAL_DELAY    = 1500;  // ms to wait after section enters viewport\n  var LOOP_DELAY       = 800;   // ms pause before restarting the full cycle\n\n  // ─── State ───────────────────────────────────────────────────────────────\n  var sequenceStarted  = false;\n  var lightboxOpen     = false;\n\n  // ─── Helpers ─────────────────────────────────────────────────────────────\n  function getVideos() {\n    return Array.from(document.querySelectorAll('#kloneVidsGrid .klone-vids__video'));\n  }\n\n  // Kick off network loading without playing\n  function triggerLoad(videoEl, preloadHint) {\n    if (videoEl.networkState <= 1) {\n      videoEl.preload = preloadHint || 'metadata';\n      videoEl.load();\n    }\n  }\n\n  // Resolve when the video has enough data to play\n  function waitForReady(videoEl) {\n    return new Promise(function (resolve) {\n      if (videoEl.readyState >= 3) { resolve(); return; }\n      function onCanPlay() {\n        videoEl.removeEventListener('canplay', onCanPlay);\n        resolve();\n      }\n      videoEl.addEventListener('canplay', onCanPlay);\n      triggerLoad(videoEl, 'auto');\n    });\n  }\n\n  // Play one clip for PREVIEW_DURATION ms, then pause and reset\n  function playClip(videoEl) {\n    return new Promise(function (resolve) {\n      waitForReady(videoEl).then(function () {\n        // Skip if lightbox is open — pause and wait\n        if (lightboxOpen) { resolve(); return; }\n        videoEl.play().then(function () {\n          setTimeout(function () {\n            videoEl.pause();\n            videoEl.currentTime = 0;\n            resolve();\n          }, PREVIEW_DURATION);\n        }).catch(function () {\n          // Autoplay blocked by browser — skip silently\n          resolve();\n        });\n      });\n    });\n  }\n\n  // Run through all 4 clips sequentially, then loop\n  function runSequence() {\n    var videos = getVideos();\n    if (!videos.length) return;\n\n    var chain = Promise.resolve();\n    videos.forEach(function (vid, i) {\n      chain = chain.then(function () {\n        // Pre-fetch the next clip while this one plays\n        var next = videos[i + 1];\n        if (next) triggerLoad(next, 'metadata');\n        return playClip(vid);\n      });\n    });\n\n    chain.then(function () {\n      setTimeout(runSequence, LOOP_DELAY);\n    });\n  }\n\n  // ─── IntersectionObserver — start only when section is visible ───────────\n  var grid = document.getElementById('kloneVidsGrid');\n  if (grid && 'IntersectionObserver' in window) {\n    var observer = new IntersectionObserver(function (entries) {\n      entries.forEach(function (entry) {\n        if (entry.isIntersecting && !sequenceStarted) {\n          sequenceStarted = true;\n          // Pre-load the first clip immediately so it's ready when timer fires\n          var firstVid = getVideos()[0];\n          if (firstVid) triggerLoad(firstVid, 'auto');\n          setTimeout(runSequence, INITIAL_DELAY);\n        }\n      });\n    }, { threshold: 0.4 });\n    observer.observe(grid);\n  } else if (grid) {\n    // Fallback for browsers without IntersectionObserver\n    var firstVid = getVideos()[0];\n    if (firstVid) triggerLoad(firstVid, 'auto');\n    setTimeout(runSequence, INITIAL_DELAY);\n  }\n\n  // ─── Lightbox ────────────────────────────────────────────────────────────\n  window.kloneOpenLightbox = function (index) {\n    var videos  = getVideos();\n    var src     = videos[index] ? videos[index].getAttribute('src') : null;\n    if (!src) return;\n\n    lightboxOpen = true;\n    // Pause whichever thumbnail is currently playing\n    videos.forEach(function (v) { v.pause(); v.currentTime = 0; });\n\n    var lightbox = document.getElementById('kloneLightbox');\n    var lbVideo  = document.getElementById('kloneLightboxVideo');\n    lbVideo.src  = src;\n    lightbox.classList.add('is-open');\n    lbVideo.play();\n  };\n\n  window.kloneCloseLightbox = function () {\n    var lightbox = document.getElementById('kloneLightbox');\n    var lbVideo  = document.getElementById('kloneLightboxVideo');\n    lightbox.classList.remove('is-open');\n    lbVideo.pause();\n    lbVideo.src = '';\n    lightboxOpen = false;\n    // Resume the autoplay sequence from the beginning\n    setTimeout(runSequence, 500);\n  };\n\n  document.addEventListener('keydown', function (e) {\n    if (e.key === 'Escape') window.kloneCloseLightbox();\n  });\n})();\n</script>"
+          }
+        },
+        "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5": {
+          "type": "sticky_atc",
+          "disabled": true,
+          "settings": {
+            "function": "add_to_cart",
+            "display_when": "after_scroll",
+            "button_label": "Add to cart",
+            "enable_custom_btn_color": false,
+            "custom_btn_color": "#dd1d1d",
+            "color_scheme": "background-1",
+            "star_color": "#ffcc00",
+            "stars_label": "(xxxx Reviews)",
+            "picker_type": "combined",
+            "desktop_show_image": true,
+            "desktop_show_title": true,
+            "desktop_rating_stars": false,
+            "desktop_show_price": true,
+            "desktop_show_sale_badge": true,
+            "desktop_variant_picker": true,
+            "desktop_full_button_width": false,
+            "desktop_show_price_in_button": false,
+            "desktop_transparent_bg": false,
+            "mobile_show_image": false,
+            "mobile_show_title": true,
+            "mobile_rating_stars": false,
+            "mobile_show_price": true,
+            "mobile_show_sale_badge": false,
+            "mobile_variant_picker": false,
+            "mobile_full_button_width": false,
+            "mobile_show_price_in_button": false,
+            "mobile_transparent_bg": false
+          }
+        },
+        "text_CKn3jb": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "mobile_text_size": 12,
+            "desktop_text_size": 16,
+            "alignment": "center",
+            "text_color": "#121212",
+            "text_1": "<strong>FREE SHIPPING</strong>",
+            "text_2": "<strong>BUY 2 GET 1 FREE</strong>",
+            "text_3": "",
+            "icon_scale": 160,
+            "icon_color": "#121212",
+            "icon_1": "local_shipping",
+            "filled_icon_1": false,
+            "icon_2": "sell",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": true,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 100,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "text_i4kMJQ": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "mobile_text_size": 14,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#121212",
+            "text_1": "<strong>Stress-free return policy </strong>- even after opening and spraying",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 155,
+            "icon_color": "#121212",
+            "icon_1": "keyboard_return",
+            "filled_icon_1": false,
+            "icon_2": "air_freshener",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": true,
+            "bg_color": "#ffffff",
+            "corner_radius": 0,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 0,
+            "margin_bottom": 15
+          }
+        },
+        "text_zQKeeW": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "mobile_text_size": 14,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#121212",
+            "text_1": "<strong>Smell the same, pay less</strong>",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 155,
+            "icon_color": "#121212",
+            "icon_1": "attach_money",
+            "filled_icon_1": false,
+            "icon_2": "air_freshener",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f9efe9",
+            "corner_radius": 0,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 15,
+            "margin_bottom": 0
+          }
+        },
+        "text_qUtkeG": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "mobile_text_size": 14,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#121212",
+            "text_1": "<strong>Lasts 12+ hours</strong>",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 155,
+            "icon_color": "#121212",
+            "icon_1": "schedule",
+            "filled_icon_1": false,
+            "icon_2": "air_freshener",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f9efe9",
+            "corner_radius": 0,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 6,
+            "margin_bottom": 0
+          }
+        },
+        "text_rtBPtX": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "mobile_text_size": 14,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#121212",
+            "text_1": "<strong>Try, </strong><em><strong>then decide</strong></em>",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 155,
+            "icon_color": "#121212",
+            "icon_1": "keyboard_return",
+            "filled_icon_1": false,
+            "icon_2": "air_freshener",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f9efe9",
+            "corner_radius": 0,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 6,
+            "margin_bottom": 0
+          }
+        },
+        "text_FXkKGz": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "mobile_text_size": 12,
+            "desktop_text_size": 16,
+            "alignment": "center",
+            "text_color": "#313131",
+            "text_1": "2-5 Day Shipping from USA 🇺🇸",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#313131",
+            "icon_1": "local_shipping",
+            "filled_icon_1": false,
+            "icon_2": "",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "fit-content",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": true,
+            "bg_color": "#f2f2f2",
+            "corner_radius": 55,
+            "padding": 4,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 9,
+            "margin_bottom": 12
+          }
+        },
+        "payment_badges_yjWwq3": {
+          "type": "payment_badges",
+          "disabled": true,
+          "settings": {
+            "enabled_payment_types": "visa, american_express, discover, master, apple_pay, shopify_pay",
+            "margin_top": 12,
+            "margin_bottom": 18
+          }
+        },
+        "text_8tGrDf": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "mobile_text_size": 14,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#121212",
+            "text_1": "<strong>Smell the same, pay less </strong>-<strong> </strong>Smell exactly like the original without overpaying",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 155,
+            "icon_color": "#121212",
+            "icon_1": "attach_money",
+            "filled_icon_1": false,
+            "icon_2": "air_freshener",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": true,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 0,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 15,
+            "margin_bottom": 0
+          }
+        },
+        "text_tmYGTd": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "mobile_text_size": 14,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#121212",
+            "text_1": "<strong>Premium quality</strong> - Experience intense scents lasting 12+ hours",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 155,
+            "icon_color": "#121212",
+            "icon_1": "air_freshener",
+            "filled_icon_1": false,
+            "icon_2": "air_freshener",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": true,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 0,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "text_F9GBeU": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "mobile_text_size": 14,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#121212",
+            "text_1": "<strong>Try, </strong><em><strong>then decide - </strong></em>Stress-free returns<strong> </strong>even after opening and spraying",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 155,
+            "icon_color": "#121212",
+            "icon_1": "keyboard_return",
+            "filled_icon_1": false,
+            "icon_2": "air_freshener",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": true,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 0,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 0,
+            "margin_bottom": 15
+          }
+        },
+        "reviews_8UgFbe": {
+          "type": "reviews",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "background-1",
+            "show_custom_bg": true,
+            "custom_bg_color": "#f5f5f5",
+            "corner_radius": 12,
+            "border_width": 0,
+            "border_color": "#b7b7b7",
+            "avatar_alignment": "middle",
+            "avatar_corner_radius": 40,
+            "star_color": "#955300",
+            "stars_translate": 0,
+            "checkmark_color": "#6d388b",
+            "checkmark_icon_color": "#ffffff",
+            "slider_type": "slide",
+            "autoplay": false,
+            "autoplay_speed": 5,
+            "display_arrows": false,
+            "display_dots": true,
+            "author_1": "<em>Eli W. </em>[stars]",
+            "image_1": "shopify://shop_images/Screenshot_2026-03-14_at_3.25.42_PM.png",
+            "text_1": "<p>\"She keeps burying her face in my neck. Says I smell incredible. I'm never switching\"</p>",
+            "author_2": "<em>David P. </em>[stars]",
+            "image_2": "shopify://shop_images/Screenshot_2026-03-14_at_3.21.35_PM.png",
+            "text_2": "<p>\"It lasts ALL DAY and I get compliments every single time I wear it. Obsessed\"</p>",
+            "author_3": "<em>James K. </em>[stars]",
+            "image_3": "shopify://shop_images/Screenshot_2026-03-14_at_3.20.32_PM.png",
+            "text_3": "<p>\"This stuff drives my girlfriend crazy. She literally asks me to wear this every time we go out\"</p>",
+            "author_4": "",
+            "text_4": "",
+            "author_5": "",
+            "text_5": "",
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        },
+        "de158e68-5d0d-4819-a625-e2dabdff87d1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Product Details",
+            "heading_size": "small",
+            "icon": "",
+            "filled_icon": false,
+            "custom_icon": "shopify://shop_images/18932855.png",
+            "collapse_icon": "plus",
+            "display_top_border": false,
+            "open": false,
+            "content": "<p><em>Eau de Parfum. Size: 50ml / 1.7oz</em></p><p>Our perfumes are crafted with high-quality fragrance oils for a rich, long-lasting scent that smells just like the designer originals. <br/><br/>Each bottle is vegan, cruelty-free, skin-safe, and made to help you get more compliments, more attention, and that <em><strong>“you smell amazing”</strong></em> moment — without the luxury price tag.</p>",
+            "page": "{{ product.metafields.custom.test_2.value }}",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_XbNFdT": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "How It Works",
+            "heading_size": "medium",
+            "icon": "",
+            "filled_icon": false,
+            "custom_icon": "shopify://shop_images/471709.png",
+            "collapse_icon": "plus",
+            "display_top_border": false,
+            "open": false,
+            "content": "<p>Our fragrances enhances your natural scent, but better. The mixture of Goda’s floral scented pheromones and copulin sends signals to the brain which enhances one’s attractiveness. <br/><br/>Once your man is hooked, there’s no telling in what he’ll do to you 😉<br/><br/><strong>Disclaimer Warning:</strong> If Men follow you or pursue you in an unsafe manner while wearing our fragrance, s<strong>top using our pheromone perfume immediately</strong>. Stay Safe Ladies!</p>",
+            "page": "{{ product.metafields.custom.fragrance_noted.value }}",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_3cpM78": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How to Use",
+            "heading_size": "small",
+            "icon": "",
+            "filled_icon": false,
+            "custom_icon": "shopify://shop_images/2011574.png",
+            "collapse_icon": "plus",
+            "display_top_border": false,
+            "open": false,
+            "content": "<p>Spray once on your wrists and once on your neck or clothing. Let it dry naturally — don’t rub. We use a high perfume-oil concentration that helps the scent bond to your skin and last all day. <br/><br/>For a stronger scent, add one or two extra sprays to pulse points or hair.</p>",
+            "page": "{{ product.metafields.custom.ingredients_.value }}",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_jcAw8Q": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping & Returns",
+            "heading_size": "small",
+            "icon": "",
+            "filled_icon": false,
+            "custom_icon": "shopify://shop_images/709822.png",
+            "collapse_icon": "plus",
+            "display_top_border": false,
+            "open": false,
+            "content": "<p>We offer FREE Shipping for all orders. Order processing takes 1-2 business days before shipment. Once your item/s is dispatched, the estimated delivery time is:<br/><br/><strong>🇺🇸 USA : 2-5 business days<br/><br/>🇦🇺 Australia: 7-12 business days<br/><br/>🇨🇦 Canada: 5-10 business days<br/><br/>🌏 Rest of world: 6-15 business days</strong><br/><br/>Note: Orders are shipped from our warehouse located in Florida.<br/><br/>We have an iron-clad, risk-free 30-day guarantee that begins only when you receive the product! If you don't have a positive experience for any reason, contact us any time and we will help you out. </p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_HkLrWb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "FREQUENTLY ASKED QUESTIONS",
+            "heading_size": "small",
+            "icon": "help_center",
+            "filled_icon": true,
+            "collapse_icon": "plus",
+            "display_top_border": false,
+            "open": false,
+            "content": "<p><strong>Q: How long do the scents last?</strong></p><p><strong>A:</strong> To ensure a particularly long shelf life, we use at least 20% oil. Our high oil concentration is designed to deliver a rich, long-lasting fragrance experience throughout the day.</p><p><strong>Q: Are the fragrances skin-friendly?</strong></p><p><strong>A:</strong> Our fragrances are formulated to be paraben-free and cruelty-free, using high-quality ingredients suitable for everyday wear.</p><p><strong>Q: Are you selling niche/designer fragrances?<br/><br/> A: No, </strong>all our fragrances are original scents. We pay homage to other fragrance houses. All names are property of their respective owners and are only used for comparison purposes. Our fragrance's ingredients are sourced world-wide to create new inspired aromas that you will fall in love with!<br/><br/>Klone Scents competes with designer brands. It does not use their fragrance is not associated in any way with the designer brands or their manufacturers. All trademarks are property of their respective owners and maintain compliance with the Federal Trade Commission's Statement of Policy Regarding Comparative Advertising.</p><p><strong>Q: Can I return my order?</strong></p><p><strong>A:</strong> We offer a stress-free return. Even if you have already used the perfume, you can simply send it back.</p>",
+            "page": "{{ product.metafields.custom.test_2.value }}",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_BTwVjw": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "DISCLAIMER FOR COMPARATIVE ADVERTISING",
+            "heading_size": "small",
+            "icon": "eda",
+            "filled_icon": false,
+            "collapse_icon": "plus",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>Klone Scents is not associated with, affiliated with, or endorsed by any designer brands or their manufacturers. Our products are inspired by popular fragrances and are not identical to, nor presented as, exact copies of any original product.</p><p>Any designer or brand names mentioned are used solely for comparison purposes, to help describe a fragrance’s general scent profile and character. Such references do not imply any partnership, sponsorship, authorization, or endorsement by the trademark owner.</p><p>All trademarks, whether referenced or not, are the property of their respective owners.</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "klone_bundle_picker": {
+          "type": "klone_bundle_picker",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "a6eb81db-40e4-43e0-972f-32db010a4a56",
+        "loox_reviews_loox_rating_YYPkQ3",
+        "title",
+        "text_QEAWYa",
+        "text_8aNd3L",
+        "text_njjzLr",
+        "price",
+        "text_g8n4UL",
+        "text_rRNdwh",
+        "custom_liquid_NjCthU",
+        "text_QBcQaF",
+        "text_UYhyfj",
+        "text_ieeNrM",
+        "text_TaWYfC",
+        "text_Pwhmfc",
+        "text_By4Fqi",
+        "product_info_dynamic_tyrP39",
+        "product_info_dynamic_Nkfptw",
+        "bundle_builder_p9DLyQ",
+        "custom_liquid_daJ8M4",
+        "text_eLcxhE",
+        "quantity_selector_wxxQ9P",
+        "product_upsell_mEcFbf",
+        "klone_bundle_picker",
+        "buy_buttons",
+        "custom_liquid_BfXEBQ",
+        "custom_liquid_Nmdydw",
+        "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5",
+        "text_CKn3jb",
+        "text_i4kMJQ",
+        "text_zQKeeW",
+        "text_qUtkeG",
+        "text_rtBPtX",
+        "text_FXkKGz",
+        "payment_badges_yjWwq3",
+        "text_8tGrDf",
+        "text_tmYGTd",
+        "text_F9GBeU",
+        "reviews_8UgFbe",
+        "de158e68-5d0d-4819-a625-e2dabdff87d1",
+        "collapsible_tab_XbNFdT",
+        "collapsible_tab_3cpM78",
+        "collapsible_tab_jcAw8Q",
+        "collapsible_tab_HkLrWb",
+        "collapsible_tab_BTwVjw"
+      ],
+      "custom_css": [],
+      "settings": {
+        "display_id": false,
+        "enable_sticky_info": true,
+        "display_variant_image_first": false,
+        "disable_prepend": true,
+        "hide_variants": false,
+        "variant_image_filtering": "none",
+        "image_zoom": "none",
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": false,
+        "dots_color_scheme": "background-1",
+        "video_player": "play_btn",
+        "enable_video_looping": false,
+        "autoplay_videos_pause_btn": false,
+        "video_sound_btn": false,
+        "video_timeline": false,
+        "play_btn_color_scheme": "accent-1",
+        "sound_btn_color_scheme": "inverse",
+        "timeline_color": "accent-1",
+        "media_size": "medium",
+        "media_position": "left",
+        "gallery_layout": "thumbnail_slider",
+        "desktop_thumbnails_count": 5,
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "desktop_arrows_position": "hidden",
+        "mobile_media_corner_radius": 0,
+        "mobile_spacing_pixels": 0,
+        "mobile_arrows_position": "hidden",
+        "mobile_pagination": "hidden",
+        "mobile_thumbnails": "show",
+        "mobile_thumbnails_count": 8,
+        "mobile_scroll_padding_percentage": 0,
+        "mobile_scroll_padding_pixels": 0,
+        "enable_mobile_outher_spacing": false,
+        "mobile_slides_container_width": 100,
+        "mobile_slides_inner_width": 100,
+        "trust_badge_position": "top-right",
+        "trust_badge_size": "medium",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "display_id": false,
+        "title": "You may also like",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    },
+    "rich_text_hUrnkD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QpHUtE": {
+          "type": "heading",
+          "settings": {
+            "title": "Compliments You Weren’t Expecting <strong>— </strong><em><strong>But Secretly Love</strong></em>",
+            "title_highlight_color": "#b17742",
+            "heading_size": "h2"
+          }
+        },
+        "text_ygnAEt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From subtle glances to bold compliments</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QpHUtE",
+        "text_ygnAEt"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "custom",
+        "padding_top": 40,
+        "padding_bottom": 12,
+        "custom_colors_background": "#f6eee8",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "review_slider_jBRxHw": {
+      "type": "review-slider",
+      "blocks": {
+        "slide_kf3in9": {
+          "type": "slide",
+          "settings": {
+            "media_type": "video",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/9a9b2f73766e4ec484bc23a3e26fc33b.mp4",
+            "video_thumbnail": "shopify://shop_images/Screenshot_2026-03-14_at_3.54.28_PM.png",
+            "review_text": "\"I put it on & then literally that day at work I get 2 people come up & tell me 'dude what are you wearing? That smells amazing'\"",
+            "reviewer_name": "Penny T",
+            "rating_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"104\" height=\"19\" viewbox=\"0 0 104 19\" fill=\"none\">\n                                  <path d=\"M9.92365 0.100098L12.0507 6.59618L18.8861 6.61168L13.3652 10.642L15.4627 17.1476L9.92365 13.1424L4.38457 17.1476L6.48208 10.642L0.961226 6.61168L7.79665 6.59618L9.92365 0.100098Z\" fill=\"#98C9E5\"></path>\n                                  <path d=\"M30.887 0.100098L33.014 6.59618L39.8495 6.61168L34.3286 10.642L36.4261 17.1476L30.887 13.1424L25.3479 17.1476L27.4455 10.642L21.9246 6.61168L28.76 6.59618L30.887 0.100098Z\" fill=\"#98C9E5\"></path>\n                                  <path d=\"M51.8502 0.100098L53.9772 6.59618L60.8126 6.61168L55.2917 10.642L57.3893 17.1476L51.8502 13.1424L46.3111 17.1476L48.4086 10.642L42.8877 6.61168L49.7232 6.59618L51.8502 0.100098Z\" fill=\"#98C9E5\"></path>\n                                  <path d=\"M72.8131 0.100098L74.9401 6.59618L81.7755 6.61168L76.2546 10.642L78.3521 17.1476L72.8131 13.1424L67.274 17.1476L69.3715 10.642L63.8506 6.61168L70.6861 6.59618L72.8131 0.100098Z\" fill=\"#98C9E5\"></path>\n                                  <path d=\"M93.7764 0.100098L95.9034 6.59618L102.739 6.61168L97.218 10.642L99.3155 17.1476L93.7764 13.1424L88.2374 17.1476L90.3349 10.642L84.814 6.61168L91.6494 6.59618L93.7764 0.100098Z\" fill=\"#98C9E5\"></path>\n                                </svg>",
+            "tags": "Attention, Confidence"
+          }
+        },
+        "slide_fhMFwD": {
+          "type": "slide",
+          "settings": {
+            "media_type": "video",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/cf99de1922664f31a40a0a368317d2ec.mov",
+            "video_thumbnail": "shopify://shop_images/Screenshot_2026-03-14_at_3.51.07_PM.png",
+            "review_text": "\"Strangers are stopping me and asking what I'm wearing. It's happened TWICE already this week\"",
+            "reviewer_name": "Caleb K",
+            "rating_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"104\" height=\"19\" viewbox=\"0 0 104 19\" fill=\"none\">\n                                  <path d=\"M9.92365 0.100098L12.0507 6.59618L18.8861 6.61168L13.3652 10.642L15.4627 17.1476L9.92365 13.1424L4.38457 17.1476L6.48208 10.642L0.961226 6.61168L7.79665 6.59618L9.92365 0.100098Z\" fill=\"#98C9E5\"></path>\n                                  <path d=\"M30.887 0.100098L33.014 6.59618L39.8495 6.61168L34.3286 10.642L36.4261 17.1476L30.887 13.1424L25.3479 17.1476L27.4455 10.642L21.9246 6.61168L28.76 6.59618L30.887 0.100098Z\" fill=\"#98C9E5\"></path>\n                                  <path d=\"M51.8502 0.100098L53.9772 6.59618L60.8126 6.61168L55.2917 10.642L57.3893 17.1476L51.8502 13.1424L46.3111 17.1476L48.4086 10.642L42.8877 6.61168L49.7232 6.59618L51.8502 0.100098Z\" fill=\"#98C9E5\"></path>\n                                  <path d=\"M72.8131 0.100098L74.9401 6.59618L81.7755 6.61168L76.2546 10.642L78.3521 17.1476L72.8131 13.1424L67.274 17.1476L69.3715 10.642L63.8506 6.61168L70.6861 6.59618L72.8131 0.100098Z\" fill=\"#98C9E5\"></path>\n                                  <path d=\"M93.7764 0.100098L95.9034 6.59618L102.739 6.61168L97.218 10.642L99.3155 17.1476L93.7764 13.1424L88.2374 17.1476L90.3349 10.642L84.814 6.61168L91.6494 6.59618L93.7764 0.100098Z\" fill=\"#98C9E5\"></path>\n                                </svg>",
+            "tags": "No Regret, Compliments"
+          }
+        },
+        "slide_rWTjPK": {
+          "type": "slide",
+          "settings": {
+            "media_type": "video",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/bfda3b3c5baa441fa7eb4f266c864c81.mov",
+            "video_thumbnail": "shopify://shop_images/Screenshot_2026-03-15_at_4.50.49_PM.png",
+            "review_text": "\"You ever walk by a man and he smells so good you don't even care what he looks like?\"",
+            "reviewer_name": "Mia C",
+            "rating_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"104\" height=\"19\" viewbox=\"0 0 104 19\" fill=\"none\">\n                                  <path d=\"M9.92365 0.100098L12.0507 6.59618L18.8861 6.61168L13.3652 10.642L15.4627 17.1476L9.92365 13.1424L4.38457 17.1476L6.48208 10.642L0.961226 6.61168L7.79665 6.59618L9.92365 0.100098Z\" fill=\"#98C9E5\"></path>\n                                  <path d=\"M30.887 0.100098L33.014 6.59618L39.8495 6.61168L34.3286 10.642L36.4261 17.1476L30.887 13.1424L25.3479 17.1476L27.4455 10.642L21.9246 6.61168L28.76 6.59618L30.887 0.100098Z\" fill=\"#98C9E5\"></path>\n                                  <path d=\"M51.8502 0.100098L53.9772 6.59618L60.8126 6.61168L55.2917 10.642L57.3893 17.1476L51.8502 13.1424L46.3111 17.1476L48.4086 10.642L42.8877 6.61168L49.7232 6.59618L51.8502 0.100098Z\" fill=\"#98C9E5\"></path>\n                                  <path d=\"M72.8131 0.100098L74.9401 6.59618L81.7755 6.61168L76.2546 10.642L78.3521 17.1476L72.8131 13.1424L67.274 17.1476L69.3715 10.642L63.8506 6.61168L70.6861 6.59618L72.8131 0.100098Z\" fill=\"#98C9E5\"></path>\n                                  <path d=\"M93.7764 0.100098L95.9034 6.59618L102.739 6.61168L97.218 10.642L99.3155 17.1476L93.7764 13.1424L88.2374 17.1476L90.3349 10.642L84.814 6.61168L91.6494 6.59618L93.7764 0.100098Z\" fill=\"#98C9E5\"></path>\n                                </svg>",
+            "tags": "Irresistible, Attention"
+          }
+        }
+      },
+      "block_order": [
+        "slide_kf3in9",
+        "slide_fhMFwD",
+        "slide_rWTjPK"
+      ],
+      "custom_css": [],
+      "name": "Review Slider",
+      "settings": {
+        "desktop_items": 4,
+        "review_font_size": 13
+      }
+    },
+    "rich_text_Vnb8gB": {
+      "type": "rich-text",
+      "blocks": {
+        "atc_button_GKHg7P": {
+          "type": "atc_button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Try Today Risk Free",
+            "atc_product": "",
+            "atc_skip_cart": false
+          }
+        },
+        "button_wUUUw4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Try Today Risk Free",
+            "button_link": "#MainContent",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "text_cGBHKX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>🕚  30 Day Money Back Guarantee</p>"
+          }
+        }
+      },
+      "block_order": [
+        "atc_button_GKHg7P",
+        "button_wUUUw4",
+        "text_cGBHKX"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "custom",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_colors_background": "#f6eee8",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#b17742",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#b17742"
+      }
+    },
+    "custom_columns_jb6LCc": {
+      "type": "custom-columns",
+      "blocks": {
+        "heading_7akByE": {
+          "type": "heading",
+          "settings": {
+            "column": "col_1",
+            "visibility": "always-display",
+            "heading": "Turns Heads <em><strong>Every time</strong></em>",
+            "title_highlight_color": "#b17742",
+            "heading_size": "h2",
+            "alignment": "center",
+            "mobile_alignment": "mobile-center",
+            "margin_top": 20,
+            "margin_bottom": 20
+          }
+        },
+        "richtext_z7yakg": {
+          "type": "richtext",
+          "settings": {
+            "column": "col_1",
+            "visibility": "always-display",
+            "text": "",
+            "text_style": "body",
+            "alignment": "center",
+            "mobile_alignment": "mobile-center",
+            "margin_top": 20,
+            "margin_bottom": 20
+          }
+        },
+        "icon_with_text_cgLRjR": {
+          "type": "icon_with_text",
+          "settings": {
+            "column": "col_2",
+            "visibility": "always-display",
+            "icon": "check_circle",
+            "filled_icon": false,
+            "image": "shopify://shop_images/feels_1_img.png",
+            "icon_size": "xxl",
+            "icon_position": "above",
+            "icon_color": "accent-1",
+            "icon_heading_size": "h3",
+            "icon_text_alignment": "left",
+            "title": "Your Scent, Amplified",
+            "text": "<p>Klone creates your own personal signature scent when applied.</p>",
+            "text_font_size": 14,
+            "margin_top": 20,
+            "margin_bottom": 30
+          }
+        },
+        "icon_with_text_NaQexB": {
+          "type": "icon_with_text",
+          "settings": {
+            "column": "col_2",
+            "visibility": "always-display",
+            "icon": "check_circle",
+            "filled_icon": false,
+            "image": "shopify://shop_images/feels_3_img.png",
+            "icon_size": "xxl",
+            "icon_position": "above",
+            "icon_color": "accent-1",
+            "icon_heading_size": "h3",
+            "icon_text_alignment": "left",
+            "title": "Scent That Lasts All day",
+            "text": "<p>Smell amazing throughout the day without needing to reapply.</p>",
+            "text_font_size": 14,
+            "margin_top": 20,
+            "margin_bottom": 20
+          }
+        },
+        "icon_with_text_phMJb6": {
+          "type": "icon_with_text",
+          "settings": {
+            "column": "col_3",
+            "visibility": "always-display",
+            "icon": "check_circle",
+            "filled_icon": false,
+            "image": "shopify://shop_images/feels_2_img.png",
+            "icon_size": "xxl",
+            "icon_position": "above",
+            "icon_color": "accent-1",
+            "icon_heading_size": "h3",
+            "icon_text_alignment": "left",
+            "title": "Compliment Magnet",
+            "text": "<p>Leaving a personal scent trail that gets compliment everytime.</p>",
+            "text_font_size": 14,
+            "margin_top": 20,
+            "margin_bottom": 30
+          }
+        },
+        "icon_with_text_zm3FrA": {
+          "type": "icon_with_text",
+          "settings": {
+            "column": "col_3",
+            "visibility": "always-display",
+            "icon": "check_circle",
+            "filled_icon": false,
+            "image": "shopify://shop_images/feels_4_img.png",
+            "icon_size": "xxl",
+            "icon_position": "above",
+            "icon_color": "accent-1",
+            "icon_heading_size": "h3",
+            "icon_text_alignment": "left",
+            "title": "Any Occasion, Anytime",
+            "text": "<p>The fragrance stays long even after you leave the room.</p>",
+            "text_font_size": 14,
+            "margin_top": 20,
+            "margin_bottom": 20
+          }
+        },
+        "buttons_qfGiKj": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "column": "col_5",
+            "visibility": "always-display",
+            "button_label_1": "Try Today Risk Free",
+            "button_link_1": "#MainContent",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "full_width": false,
+            "alignment": "center",
+            "mobile_alignment": "center",
+            "margin_top": 20,
+            "margin_bottom": 20
+          }
+        },
+        "richtext_jCmHwR": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "column": "col_5",
+            "visibility": "always-display",
+            "text": "<p>🕚 30 Day Money Back Guarantee<br/><br/></p>",
+            "text_style": "body",
+            "alignment": "center",
+            "mobile_alignment": "mobile-center",
+            "margin_top": 20,
+            "margin_bottom": 20
+          }
+        },
+        "video_nPLtLe": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "column": "col_4",
+            "visibility": "always-display",
+            "video": "shopify://files/videos/0fa20958391642f0a32c121d1272db5d.HD-1080p-2.5Mbps-46895706.mp4",
+            "loop": true,
+            "muted_autoplay": true,
+            "display_play_btn": false,
+            "btn_animation": false,
+            "btn_color_scheme": "accent-1",
+            "display_sound_btn": false,
+            "sound_btn_color_scheme": "inverse",
+            "display_timeline": false,
+            "timeline_color": "accent-1",
+            "width": 100,
+            "alignment": "center",
+            "mobile_alignment": "center",
+            "border_radius": 6,
+            "margin_top": 20,
+            "margin_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_7akByE",
+        "richtext_z7yakg",
+        "icon_with_text_cgLRjR",
+        "icon_with_text_NaQexB",
+        "icon_with_text_phMJb6",
+        "icon_with_text_zm3FrA",
+        "buttons_qfGiKj",
+        "richtext_jCmHwR",
+        "video_nPLtLe"
+      ],
+      "name": "Custom columns",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "color_scheme": "custom",
+        "columns_count": 5,
+        "column_gap_desktop": 40,
+        "row_gap_desktop": 40,
+        "desktop_vertical_alignment": "center",
+        "column_gap_mobile": 20,
+        "row_gap_mobile": 30,
+        "mobile_vertical_alignment": "flex-start",
+        "col_1_desktop_width": 12,
+        "col_1_mobile_width": 4,
+        "col_1_visibility": "always-display",
+        "col_2_desktop_width": 3,
+        "col_2_mobile_width": 2,
+        "col_2_visibility": "always-display",
+        "col_3_desktop_width": 3,
+        "col_3_mobile_width": 2,
+        "col_3_visibility": "always-display",
+        "col_4_desktop_width": 6,
+        "col_4_mobile_width": 4,
+        "col_4_visibility": "always-display",
+        "col_5_desktop_width": 12,
+        "col_5_mobile_width": 4,
+        "col_5_visibility": "always-display",
+        "col_6_desktop_width": 12,
+        "col_6_mobile_width": 4,
+        "col_6_visibility": "always-display",
+        "padding_top": 36,
+        "padding_bottom": 0,
+        "custom_colors_background": "#fbf5f5",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#b17742",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#b17742"
+      }
+    },
+    "rich_text_cBzegD": {
+      "type": "rich-text",
+      "blocks": {
+        "atc_button_AK4ADE": {
+          "type": "atc_button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Try Today Risk Free",
+            "atc_product": "",
+            "atc_skip_cart": false
+          }
+        },
+        "button_b68YiJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Try Today Risk Free",
+            "button_link": "#MainContent",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "text_Lqq3DL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>🕚  30 Day Money Back Guarantee</p>"
+          }
+        }
+      },
+      "block_order": [
+        "atc_button_AK4ADE",
+        "button_b68YiJ",
+        "text_Lqq3DL"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "custom",
+        "padding_top": 0,
+        "padding_bottom": 52,
+        "custom_colors_background": "#fbf5f5",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#b17742",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#b17742"
+      }
+    },
+    "custom_liquid_hyy9Kj": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "custom_liquid": "<!-- GRAPH COMPARISON -->\n<section style=\"background:#F2EDE6;padding:5px 20px 48px;\">\n  <div style=\"max-width:680px;margin:0 auto;\">\n    <h2 style=\"font-family:'DM Sans',sans-serif;font-size:clamp(26px,7vw,42px);color:#1A1A1A;margin-bottom:16px;line-height:1.15;font-weight:800;\">\n      One spray. Twelve hours. <em style=\"color:#B17742;font-style:italic;\"> Guaranteed.</em>\n    </h2>\n    <p style=\"font-size:14px;line-height:1.8;color:#5A5A5A;margin-bottom:28px;\">\n      We built Klone with 25% oil concentration — <strong style=\"color:#1A1A1A;\">the highest in its class — </strong> once you spray in the morning and you're still the best smelling person in the room at midnight.\n    </p>\n\n    <!-- Bar chart dark card -->\n    <div style=\"background:#1A1A1A;border-radius:12px;padding:24px 20px;margin-bottom:28px;\">\n      <div style=\"font-size:11px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:#D4A574;margin-bottom:20px;text-align:center;\">The Longevity Test</div>\n      <div style=\"display:flex;flex-direction:column;gap:20px;\">\n\n        <!-- Bar 1: Drugstore -->\n        <div>\n          <div style=\"display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:7px;\">\n            <div>\n              <div style=\"font-size:13px;font-weight:700;color:rgba(255,255,255,0.9);line-height:1.3;\">Drugstore Body Spray</div>\n              <div style=\"font-size:11px;color:rgba(255,255,255,0.65);margin-top:2px;\">1–3% oil concentration</div>\n            </div>\n            <div style=\"font-size:15px;font-weight:900;color:rgba(255,255,255,0.8);white-space:nowrap;margin-left:12px;\">1–2 hrs</div>\n          </div>\n          <svg width=\"100%\" height=\"20\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:block;\">\n            <rect width=\"100%\" height=\"20\" rx=\"10\" fill=\"rgba(255,255,255,0.08 )\"/>\n            <rect width=\"12%\" height=\"20\" rx=\"10\" fill=\"#94A3B8\"/>\n          </svg>\n        </div>\n\n        <!-- Bar 2: Designer -->\n        <div>\n          <div style=\"display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:7px;\">\n            <div>\n              <div style=\"font-size:13px;font-weight:700;color:rgba(255,255,255,0.9);line-height:1.3;\">$300 Designer Cologne</div>\n              <div style=\"font-size:11px;color:rgba(255,255,255,0.65);margin-top:2px;\">5–10% oil concentration</div>\n            </div>\n            <div style=\"font-size:15px;font-weight:900;color:rgba(255,255,255,0.8);white-space:nowrap;margin-left:12px;\">2–3 hrs</div>\n          </div>\n          <svg width=\"100%\" height=\"20\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:block;\">\n            <rect width=\"100%\" height=\"20\" rx=\"10\" fill=\"rgba(255,255,255,0.08 )\"/>\n            <rect width=\"40%\" height=\"20\" rx=\"10\" fill=\"#94A3B8\"/>\n          </svg>\n        </div>\n\n        <!-- Bar 3: Klone (winner) -->\n        <div>\n          <div style=\"display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:7px;\">\n            <div>\n              <div style=\"font-size:13px;font-weight:700;color:#fff;line-height:1.3;\">Klone Scents</div>\n              <div style=\"font-size:11px;color:rgba(255,255,255,0.65);margin-top:2px;\">25% oil concentration</div>\n            </div>\n            <div style=\"font-size:15px;font-weight:900;color:#D4A574;white-space:nowrap;margin-left:12px;\">12+ hrs</div>\n          </div>\n          <div style=\"position:relative;\">\n            <svg width=\"100%\" height=\"30\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:block;\">\n              <rect width=\"100%\" height=\"30\" rx=\"15\" fill=\"#B17742\"/>\n            </svg>\n            <span style=\"position:absolute;top:0;right:12px;height:30px;display:flex;align-items:center;font-size:11px;font-weight:900;color:#fff;letter-spacing:0.5px;white-space:nowrap;\">WINNER ✓</span>\n          </div>\n        </div>\n\n      </div>\n      <div style=\"margin-top:20px;background:rgba(177,119,66,0.15 );border-left:3px solid #B17742;padding:10px 14px;border-radius:0 6px 6px 0;font-size:13px;color:rgba(255,255,255,0.8);line-height:1.6;\">\n        Klone Scents lasts <strong style=\"color:#D4A574;\">6× longer</strong> than drugstore sprays and <strong style=\"color:#D4A574;\">2–3× longer</strong> than $300 designer colognes.\n      </div>\n    </div>\n\n    <!-- CTA -->\n    <a href=\"#\" style=\"display:block;background:#B17742;color:#fff;font-family:'DM Sans',sans-serif;font-weight:700;font-size:17px;letter-spacing:0.3px;padding:17px 14px;border-radius:6px;text-decoration:none;text-align:center;width:100%;box-sizing:border-box;line-height:1.3;\">Try Risk Free Now</a>\n  </div>\n</section>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_FGdPgB": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "custom_liquid": "<!-- ============================================================\n  KLONE SCENTS — Skin Bonding Complex Mechanism Section\n  Modelled after Hears.com product mechanism layout\n  Mobile-first | Paste into your product page template\n  ============================================================ -->\n\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link href=\"https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap\" rel=\"stylesheet\">\n\n<style>\n  .klone-mech {\n    font-family: 'DM Sans', sans-serif;\n    margin: 24px 0;\n    padding: 0px 12px;\n  }\n\n  /* ── Card wrapper ── */\n  .klone-mech__card {\n    background: #ffffff;\n    border-radius: 16px;\n    overflow: hidden;\n    box-shadow: 0 2px 16px rgba(0,0,0,0.07);\n  }\n\n  /* ── Video container ── */\n  .klone-mech__video-wrap {\n    background: #f0ede8;\n    width: 100%;\n    aspect-ratio: 16 / 9;\n    overflow: hidden;\n    position: relative;\n  }\n\n  .klone-mech__video-wrap video {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    display: block;\n  }\n\n  /* ── Text body ── */\n  .klone-mech__body {\n    padding: 24px 20px 20px;\n  }\n\n  /* ── Eyebrow tag ── */\n  .klone-mech__eyebrow {\n    font-size: 11px;\n    font-weight: 600;\n    letter-spacing: 0.05em;\n    text-transform: uppercase;\n    color: #B17742;\n    margin: 0 0 8px;\n  }\n\n  /* ── Headline ── */\n  .klone-mech__headline {\n    font-size: 26px;\n    font-weight: 500;\n    line-height: 1.2;\n    color: #111111;\n    margin: 0 0 12px;\n    letter-spacing: -0.02em;\n  }\n\n  /* ── Description ── */\n  .klone-mech__desc {\n    font-size: 14px;\n    line-height: 1.3;\n    letter-spacing: 0.01em;\n    color: #000000;\n    margin: 0 0 24px;\n  }\n\n  /* ── Feature rows ── */\n  .klone-mech__features {\n    display: flex;\n    flex-direction: column;\n    gap: 20px;\n  }\n\n  .klone-mech__feature {\n    display: flex;\n    align-items: flex-start;\n    gap: 14px;\n  }\n\n  /* ── Icon circle ── */\n  .klone-mech__icon {\n    flex-shrink: 0;\n    width: 44px;\n    height: 44px;\n    background: #fdf6ef;\n    border: 1.5px solid #e8d5be;\n    border-radius: 50%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  .klone-mech__icon svg {\n    width: 20px;\n    height: 20px;\n    stroke: #B17742;\n    fill: none;\n    stroke-width: 1.8;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n  }\n\n  /* ── Feature text ── */\n  .klone-mech__feature-text {\n    flex: 1;\n    padding-top: 2px;\n  }\n\n  .klone-mech__feature-title {\n    font-size: 15px;\n    font-weight: 600;\n    color: #111111;\n    letter-spacing: 0.03em;\n    margin: 0 0 3px;\n  }\n\n  .klone-mech__feature-sub {\n    font-size: 13px;\n    line-height: 1.3;\n    letter-spacing: 0.03em;\n    color: #555555;\n    margin: 0;\n  }\n</style>\n\n<div class=\"klone-mech\">\n  <div class=\"klone-mech__card\">\n\n    <!-- Video -->\n    <div class=\"klone-mech__video-wrap\">\n      <video\n        id=\"klone-mech-video\"\n        src=\"https://cdn.shopify.com/videos/c/o/v/b631ee2fdcd5476491ccda1a56466657.mp4\"\n        poster=\"https://cdn.shopify.com/s/files/1/0706/7726/6653/files/klone-mech-poster.jpg?v=1782755852\"\n        muted\n        loop\n        playsinline\n        webkit-playsinline\n        preload=\"auto\"\n      ></video>\n    </div>\n\n    <!-- Body -->\n    <div class=\"klone-mech__body\">\n\n      <p class=\"klone-mech__eyebrow\">THE Klone FORMULA</p>\n      <h3 class=\"klone-mech__headline\">Built to Last. Here's Why.</h3>\n      <p class=\"klone-mech__desc\">\n                Most fragrances evaporate within 1–2 hours. Our Skin Bonding formula  anchors the scent to your skin so it releases slowly over hours thoughout the day.\n\n      </p>\n\n      <!-- Feature rows -->\n      <div class=\"klone-mech__features\">\n\n        <!-- Row 1 -->\n        <div class=\"klone-mech__feature\">\n          <div class=\"klone-mech__icon\">\n            <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <circle cx=\"5\" cy=\"12\" r=\"2.5\"/>\n              <circle cx=\"19\" cy=\"5\" r=\"2.5\"/>\n              <circle cx=\"19\" cy=\"19\" r=\"2.5\"/>\n              <line x1=\"7.5\" y1=\"12\" x2=\"16.5\" y2=\"6.2\"/>\n              <line x1=\"7.5\" y1=\"12\" x2=\"16.5\" y2=\"17.8\"/>\n            </svg>\n          </div>\n          <div class=\"klone-mech__feature-text\">\n            <p class=\"klone-mech__feature-title\">Bonds to your skin</p>\n            <p class=\"klone-mech__feature-sub\">The bonding molecules physically anchor the scent to your skin surface.</p>\n          </div>\n        </div>\n\n        <!-- Row 2 -->\n        <div class=\"klone-mech__feature\">\n          <div class=\"klone-mech__icon\">\n            <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <circle cx=\"12\" cy=\"12\" r=\"9\"/>\n              <polyline points=\"12 7 12 12 15.5 15.5\"/>\n            </svg>\n          </div>\n          <div class=\"klone-mech__feature-text\">\n            <p class=\"klone-mech__feature-title\">12+ hour slow release</p>\n            <p class=\"klone-mech__feature-sub\">Instead of evaporating in 1–2 hours, the scent releases gradually all day long.</p>\n          </div>\n        </div>\n\n        <!-- Row 3 -->\n        <div class=\"klone-mech__feature\">\n          <div class=\"klone-mech__icon\">\n            <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path d=\"M12 2C12 2 6 9 6 14a6 6 0 0 0 12 0C18 9 12 2 12 2z\"/>\n            </svg>\n          </div>\n          <div class=\"klone-mech__feature-text\">\n            <p class=\"klone-mech__feature-title\">Skin-Safe Formula</p>\n            <p class=\"klone-mech__feature-sub\">Safe for daily wear, every skin type - Tested</p>\n          </div>\n        </div>\n\n      </div>\n    </div>\n  </div>\n</div>\n\n<script>\n(function () {\n  // iOS Safari requires a user gesture before media can play.\n  // The key insight: on iOS, the FIRST scroll/touch IS a user gesture.\n  // We listen for touchstart (fires before scroll) and every scroll event,\n  // then play the video if it is currently in the viewport.\n  // This is the most reliable approach for iPhone Safari.\n\n  var video = document.getElementById('klone-mech-video');\n  if (!video) return;\n\n  var played = false;\n\n  function isInViewport() {\n    var rect = video.getBoundingClientRect();\n    return rect.top < window.innerHeight && rect.bottom > 0;\n  }\n\n  function tryPlay() {\n    if (played) return;\n    if (!isInViewport()) return;\n    video.muted = true;\n    var p = video.play();\n    if (p && typeof p.then === 'function') {\n      p.then(function () { played = true; }).catch(function () {});\n    } else {\n      played = true;\n    }\n  }\n\n  // 1. Try immediately — works on Android/desktop\n  tryPlay();\n\n  // 2. On first touch — iOS unlocks media on touchstart (before scroll fires)\n  document.addEventListener('touchstart', tryPlay, { passive: true, once: false });\n\n  // 3. On every scroll — re-check viewport position\n  window.addEventListener('scroll', tryPlay, { passive: true });\n\n  // 4. IntersectionObserver as extra fallback\n  if ('IntersectionObserver' in window) {\n    var io = new IntersectionObserver(function (entries) {\n      if (entries[0].isIntersecting && !played) {\n        var p = video.play();\n        if (p && typeof p.then === 'function') {\n          p.then(function () { played = true; }).catch(function () {});\n        } else {\n          played = true;\n        }\n      }\n    }, { threshold: 0, rootMargin: '0px' });\n    io.observe(video);\n  }\n})();\n</script>\n\n<!-- ============================================================\n  END Skin Bonding Complex section\n  ============================================================ -->",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_48N97B": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "custom_liquid": "<!-- ── BUSINESS MODEL ── -->\n  <section style=\"background:#1A1A1A;color:#fff;padding:20px 20px;\">\n    <div style=\"max-width:680px;margin:0 auto;\">\n      <h2 style=\"font-family:'DM Sans',sans-serif;font-weight:800;font-size:clamp(24px,6vw,38px);color:#fff;margin-bottom:14px;line-height:1.15;\">\n        Why is it only $39 per bottle? <em style=\"color:#D4A574;font-style:normal;\">(No catch.)</em>\n      </h2>\n      <p style=\"font-size:15px;color:rgba(255,255,255,0.8);margin-bottom:28px;line-height:1.7;\">When you buy a $350 designer cologne, you're not paying for better ingredients. You're paying for:</p>\n      <div style=\"background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:10px;padding:8px 16px;margin-bottom:24px;\">\n        <div style=\"display:flex;align-items:center;gap:12px;padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.08);\">\n          <span style=\"font-size:20px;flex-shrink:0;\">🎤</span>\n          <span style=\"flex:1;font-size:15px;font-weight:600;color:#fff;\">Celebrity Endorsements</span>\n          <span style=\"font-weight:700;font-size:15px;color:#D4A574;white-space:nowrap;\">~$80</span>\n        </div>\n        <div style=\"display:flex;align-items:center;gap:12px;padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.08);\">\n          <span style=\"font-size:20px;flex-shrink:0;\">🏬</span>\n          <span style=\"flex:1;font-size:15px;font-weight:600;color:#fff;\">Retail Markups</span>\n          <span style=\"font-weight:700;font-size:15px;color:#D4A574;white-space:nowrap;\">~$120</span>\n        </div>\n        <div style=\"display:flex;align-items:center;gap:12px;padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.08);\">\n          <span style=\"font-size:20px;flex-shrink:0;\">📣</span>\n          <span style=\"flex:1;font-size:15px;font-weight:600;color:#fff;\">Marketing &amp; Distribution</span>\n          <span style=\"font-weight:700;font-size:15px;color:#D4A574;white-space:nowrap;\">~$110</span>\n        </div>\n        <div style=\"display:flex;align-items:center;gap:12px;padding:14px 0;\">\n          <span style=\"font-size:20px;flex-shrink:0;\">🧪</span>\n          <span style=\"flex:1;font-size:15px;font-weight:600;color:#fff;\">Actual Fragrance Ingredients</span>\n          <span style=\"font-weight:700;font-size:15px;color:#D4A574;white-space:nowrap;\">~$40</span>\n        </div>\n      </div>\n      <div style=\"background:rgba(177,119,66,0.15);border-left:4px solid #B17742;padding:16px 18px;border-radius:0 8px 8px 0;font-size:15px;color:rgba(255,255,255,0.9);line-height:1.7;margin-bottom:2px;\">\n        We stripped all of that away. <strong style=\"color:#fff;\">You pay for the juice, not the marketing.</strong>\n      </div>\n      \n    </div>\n  </section>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_p3ELzx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gkcWJ3": {
+          "type": "heading",
+          "settings": {
+            "title": "<em>250k+ men </em><em><strong>already</strong></em><em> </em><em><strong>made the switch</strong></em>",
+            "title_highlight_color": "#b17742",
+            "heading_size": "h2"
+          }
+        },
+        "text_7EH9Ff": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The reviews say it<strong> </strong>better than we can.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gkcWJ3",
+        "text_7EH9Ff"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "custom",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "custom_colors_background": "#f6eee8",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "review_slider_eaXJct": {
+      "type": "review-slider",
+      "blocks": {
+        "slide_nU7Gkt": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "video_url": "",
+            "image_file": "shopify://shop_images/Screenshot_2025-05-18_at_9.19.05_PM_1190e496-72e9-4402-9203-e4cb43a8b665.png",
+            "review_text": "\"I work 10-hour shifts and usually my cologne is gone by noon. I sprayed Rouge Atlantic at 7 AM, and the barista at the coffee shop complimented me at 6 PM. The longevity is actually insane.\"",
+            "reviewer_name": "Thomas Q",
+            "rating_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"104\" height=\"19\" viewbox=\"0 0 104 19\" fill=\"none\">\n                                  <path d=\"M9.92365 0.100098L12.0507 6.59618L18.8861 6.61168L13.3652 10.642L15.4627 17.1476L9.92365 13.1424L4.38457 17.1476L6.48208 10.642L0.961226 6.61168L7.79665 6.59618L9.92365 0.100098Z\" fill=\"#98C9E5\"></path>\n                                  <path d=\"M30.887 0.100098L33.014 6.59618L39.8495 6.61168L34.3286 10.642L36.4261 17.1476L30.887 13.1424L25.3479 17.1476L27.4455 10.642L21.9246 6.61168L28.76 6.59618L30.887 0.100098Z\" fill=\"#98C9E5\"></path>\n                                  <path d=\"M51.8502 0.100098L53.9772 6.59618L60.8126 6.61168L55.2917 10.642L57.3893 17.1476L51.8502 13.1424L46.3111 17.1476L48.4086 10.642L42.8877 6.61168L49.7232 6.59618L51.8502 0.100098Z\" fill=\"#98C9E5\"></path>\n                                  <path d=\"M72.8131 0.100098L74.9401 6.59618L81.7755 6.61168L76.2546 10.642L78.3521 17.1476L72.8131 13.1424L67.274 17.1476L69.3715 10.642L63.8506 6.61168L70.6861 6.59618L72.8131 0.100098Z\" fill=\"#98C9E5\"></path>\n                                  <path d=\"M93.7764 0.100098L95.9034 6.59618L102.739 6.61168L97.218 10.642L99.3155 17.1476L93.7764 13.1424L88.2374 17.1476L90.3349 10.642L84.814 6.61168L91.6494 6.59618L93.7764 0.100098Z\" fill=\"#98C9E5\"></path>\n                                </svg>",
+            "tags": "Long Lasting, Attention"
+          }
+        },
+        "slide_8LB3Wb": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "video_url": "",
+            "image_file": "shopify://shop_images/Screenshot_2026-03-14_at_3.21.35_PM.png",
+            "review_text": "I was super skeptical because of the price. I've worn the $400 version for years. I sprayed this on one wrist and the original on the other. I couldn't tell the difference! I'm never paying retail again.\"",
+            "reviewer_name": "Randal Q",
+            "rating_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"104\" height=\"19\" viewbox=\"0 0 104 19\" fill=\"none\">\n                                  <path d=\"M9.92365 0.100098L12.0507 6.59618L18.8861 6.61168L13.3652 10.642L15.4627 17.1476L9.92365 13.1424L4.38457 17.1476L6.48208 10.642L0.961226 6.61168L7.79665 6.59618L9.92365 0.100098Z\" fill=\"#98C9E5\"></path>\n                                  <path d=\"M30.887 0.100098L33.014 6.59618L39.8495 6.61168L34.3286 10.642L36.4261 17.1476L30.887 13.1424L25.3479 17.1476L27.4455 10.642L21.9246 6.61168L28.76 6.59618L30.887 0.100098Z\" fill=\"#98C9E5\"></path>\n                                  <path d=\"M51.8502 0.100098L53.9772 6.59618L60.8126 6.61168L55.2917 10.642L57.3893 17.1476L51.8502 13.1424L46.3111 17.1476L48.4086 10.642L42.8877 6.61168L49.7232 6.59618L51.8502 0.100098Z\" fill=\"#98C9E5\"></path>\n                                  <path d=\"M72.8131 0.100098L74.9401 6.59618L81.7755 6.61168L76.2546 10.642L78.3521 17.1476L72.8131 13.1424L67.274 17.1476L69.3715 10.642L63.8506 6.61168L70.6861 6.59618L72.8131 0.100098Z\" fill=\"#98C9E5\"></path>\n                                  <path d=\"M93.7764 0.100098L95.9034 6.59618L102.739 6.61168L97.218 10.642L99.3155 17.1476L93.7764 13.1424L88.2374 17.1476L90.3349 10.642L84.814 6.61168L91.6494 6.59618L93.7764 0.100098Z\" fill=\"#98C9E5\"></path>\n                                </svg>",
+            "tags": "Best, More Confident"
+          }
+        },
+        "slide_BnFCyK": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "video_url": "",
+            "image_file": "shopify://shop_images/Screenshot_2026-03-14_at_3.28.46_PM.png",
+            "review_text": "It's like catnip for women. Every girl I meet compliments my smell first thing. My girlfriend is OBSESSED. She literally buries her face in my neck every time I wear it",
+            "reviewer_name": "David P",
+            "rating_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"104\" height=\"19\" viewbox=\"0 0 104 19\" fill=\"none\">\n                                  <path d=\"M9.92365 0.100098L12.0507 6.59618L18.8861 6.61168L13.3652 10.642L15.4627 17.1476L9.92365 13.1424L4.38457 17.1476L6.48208 10.642L0.961226 6.61168L7.79665 6.59618L9.92365 0.100098Z\" fill=\"#98C9E5\"></path>\n                                  <path d=\"M30.887 0.100098L33.014 6.59618L39.8495 6.61168L34.3286 10.642L36.4261 17.1476L30.887 13.1424L25.3479 17.1476L27.4455 10.642L21.9246 6.61168L28.76 6.59618L30.887 0.100098Z\" fill=\"#98C9E5\"></path>\n                                  <path d=\"M51.8502 0.100098L53.9772 6.59618L60.8126 6.61168L55.2917 10.642L57.3893 17.1476L51.8502 13.1424L46.3111 17.1476L48.4086 10.642L42.8877 6.61168L49.7232 6.59618L51.8502 0.100098Z\" fill=\"#98C9E5\"></path>\n                                  <path d=\"M72.8131 0.100098L74.9401 6.59618L81.7755 6.61168L76.2546 10.642L78.3521 17.1476L72.8131 13.1424L67.274 17.1476L69.3715 10.642L63.8506 6.61168L70.6861 6.59618L72.8131 0.100098Z\" fill=\"#98C9E5\"></path>\n                                  <path d=\"M93.7764 0.100098L95.9034 6.59618L102.739 6.61168L97.218 10.642L99.3155 17.1476L93.7764 13.1424L88.2374 17.1476L90.3349 10.642L84.814 6.61168L91.6494 6.59618L93.7764 0.100098Z\" fill=\"#98C9E5\"></path>\n                                </svg>",
+            "tags": "More Attention, Touch"
+          }
+        },
+        "slide_k8FjRm": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "video_url": "",
+            "image_file": "shopify://shop_images/Screenshot_2026-03-14_at_3.38.04_PM.png",
+            "review_text": "\"First date wearing this. She texted 20 minutes after saying he couldn't stop thinking about me. Mentioned TWICE how good I smelled. Never leaving the house without this.\"",
+            "reviewer_name": "Eli W",
+            "rating_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"104\" height=\"19\" viewbox=\"0 0 104 19\" fill=\"none\">\n                                  <path d=\"M9.92365 0.100098L12.0507 6.59618L18.8861 6.61168L13.3652 10.642L15.4627 17.1476L9.92365 13.1424L4.38457 17.1476L6.48208 10.642L0.961226 6.61168L7.79665 6.59618L9.92365 0.100098Z\" fill=\"#98C9E5\"></path>\n                                  <path d=\"M30.887 0.100098L33.014 6.59618L39.8495 6.61168L34.3286 10.642L36.4261 17.1476L30.887 13.1424L25.3479 17.1476L27.4455 10.642L21.9246 6.61168L28.76 6.59618L30.887 0.100098Z\" fill=\"#98C9E5\"></path>\n                                  <path d=\"M51.8502 0.100098L53.9772 6.59618L60.8126 6.61168L55.2917 10.642L57.3893 17.1476L51.8502 13.1424L46.3111 17.1476L48.4086 10.642L42.8877 6.61168L49.7232 6.59618L51.8502 0.100098Z\" fill=\"#98C9E5\"></path>\n                                  <path d=\"M72.8131 0.100098L74.9401 6.59618L81.7755 6.61168L76.2546 10.642L78.3521 17.1476L72.8131 13.1424L67.274 17.1476L69.3715 10.642L63.8506 6.61168L70.6861 6.59618L72.8131 0.100098Z\" fill=\"#98C9E5\"></path>\n                                  <path d=\"M93.7764 0.100098L95.9034 6.59618L102.739 6.61168L97.218 10.642L99.3155 17.1476L93.7764 13.1424L88.2374 17.1476L90.3349 10.642L84.814 6.61168L91.6494 6.59618L93.7764 0.100098Z\" fill=\"#98C9E5\"></path>\n                                </svg>",
+            "tags": "Adored, Obsessed"
+          }
+        }
+      },
+      "block_order": [
+        "slide_nU7Gkt",
+        "slide_8LB3Wb",
+        "slide_BnFCyK",
+        "slide_k8FjRm"
+      ],
+      "custom_css": [],
+      "name": "Review Slider",
+      "settings": {
+        "desktop_items": 3,
+        "review_font_size": 13
+      }
+    },
+    "17636333475094d12b": {
+      "type": "_blocks",
+      "custom_css": [
+        "{background-color: #f6eee8;}"
+      ],
+      "settings": {}
+    },
+    "rich_text_CwFHae": {
+      "type": "rich-text",
+      "blocks": {
+        "atc_button_WVApbd": {
+          "type": "atc_button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Try Today Risk Free",
+            "atc_product": "",
+            "atc_skip_cart": false
+          }
+        },
+        "button_rikpDW": {
+          "type": "button",
+          "settings": {
+            "button_label": "Try Today Risk Free",
+            "button_link": "#MainContent",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "text_frBwrR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>🕚  30 Day Money Back Guarantee</p>"
+          }
+        }
+      },
+      "block_order": [
+        "atc_button_WVApbd",
+        "button_rikpDW",
+        "text_frBwrR"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "custom",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_colors_background": "#f6eee8",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#b17742",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#b17742"
+      }
+    },
+    "custom_liquid_9BrwLM": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "custom_liquid": "<style>\n  .klone-faq details { border: 1.5px dashed #D4A574; border-radius: 8px; margin-bottom: 12px; overflow: hidden; }\n  .klone-faq summary { list-style: none; padding: 16px 20px; font-family: 'DM Sans', sans-serif; font-size: 15px; font-weight: 600; color: #1A1A1A; cursor8 pointer; display: flex; justify-content: space-between; align-items: center; gap: 12px; line-height: 1.2; min-height: 48px; background: none; }\n  .klone-faq summary::-webkit-details-marker { display: none; }\n  .klone-faq summary::after { content: '+'; font-size: 24px; color: #B17742; flex-shrink: 0; line-height: 1; transition: transform 0.3s; }\n  .klone-faq details[open] summary::after { content: '−'; }\n  .klone-faq .faq-body { padding: 0 20px 16px; font-size: 15px; color: #5A5A5A; line-height: 1.55; font-family: 'DM Sans', sans-serif; }\n</style>\n\n\n<!-- ── FAQ ── -->\n<section style=\"background:#F5EBE0;padding:48px 20px;\">\n  <div style=\"max-width:680px;margin:0 auto;\" class=\"klone-faq\">\n    <div style=\"text-align:center;font-size:11px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:#B17742;margin-bottom:10px;\">Got Questions?</div>\n    <h2 style=\"font-family:'Playfair Display',serif;text-align:center;font-size:clamp(22px,6vw,34px);color:#1A1A1A;margin-bottom:28px;line-height:1.15;\">Frequently Asked Questions</h2>\n\n    <details>\n      <summary>Do these actually smell like the $400 designer versions?</summary>\n      <div class=\"faq-body\">Yes. We use the same high-quality ingredients and reverse-engineer the exact scent profiles. The only difference is the logo on the bottle and the price tag.</div>\n    </details>\n\n    <details>\n      <summary>How long does the scent actually last?</summary>\n      <div class=\"faq-body\">Because we use a 25% oil concentration, our fragrances are designed to last 12+ hours on the skin and even longer on clothes.</div>\n    </details>\n\n    <details>\n      <summary>What if I buy it and I do not like the smell?</summary>\n      <div class=\"faq-body\">We have a zero-risk policy. If you do not love it, or if you are not getting the compliments you expected, return it within 30 days for a full refund.</div>\n    </details>\n\n    <details>\n      <summary>Are your products cruelty-free?</summary>\n      <div class=\"faq-body\">Absolutely. We never test on animals, and all our formulations are 100% vegan and cruelty-free.</div>\n    </details>\n\n    <details>\n      <summary>How fast is shipping?</summary>\n      <div class=\"faq-body\">\n        <p style=\"margin:0 0 12px 0;\">We offer FREE Shipping for all orders. Order processing takes 1–2 business days before shipment. Once dispatched:</p>\n    <p style=\"margin:0 0 4px 0;\">🇺🇸 USA: 2–5 business days</p>\n    <p style=\"margin:0 0 4px 0;\">🇦🇺 Australia: 7–12 business days</p>\n    <p style=\"margin:0 0 4px 0;\">🇨🇦 Canada: 5–10 business days</p>\n    <p style=\"margin:0 0 12px 0;\">🌏 Rest of world: 6–15 business days</p>\n    <p style=\"margin:0;\">Orders ship from our warehouse in Florida. Our 30-day guarantee begins when you receive the product.</p>\n      </div>\n    </details>\n\n    <details>\n      <summary>How does the Buy 2 Get 1 Free deal work?</summary>\n      <div class=\"faq-body\">Add any 2 bottles to your cart and get a third bottle completely free. Choose from our best-selling collection and build your full rotation for any occasion. This deal is for a limited time only.</div>\n    </details>\n\n  </div>\n</section>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_columns_7fxgEx": {
+      "type": "custom-columns",
+      "blocks": {
+        "heading_6JQ6A9": {
+          "type": "heading",
+          "settings": {
+            "column": "col_1",
+            "visibility": "always-display",
+            "heading": "Common Questions About <em><strong>Klone Scents</strong></em>",
+            "title_highlight_color": "#b17742",
+            "heading_size": "h1",
+            "alignment": "center",
+            "mobile_alignment": "mobile-center",
+            "margin_top": 20,
+            "margin_bottom": 20
+          }
+        },
+        "accordion_WNUnzL": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "column": "col_2",
+            "visibility": "always-display",
+            "heading": "Does it really work?",
+            "heading_size": "medium",
+            "icon": "",
+            "filled_icon": false,
+            "collapse_icon": "plus",
+            "display_top_border": true,
+            "content": "",
+            "page": "",
+            "margin_top": 20,
+            "margin_bottom": 0
+          }
+        },
+        "accordion_JYxWkV": {
+          "type": "accordion",
+          "settings": {
+            "column": "col_2",
+            "visibility": "always-display",
+            "heading": "How long does it last?",
+            "heading_size": "medium",
+            "icon": "",
+            "filled_icon": false,
+            "collapse_icon": "plus",
+            "display_top_border": true,
+            "content": "<p>Up to 12 hours, thanks to the high perfume-oil concentration we use in our formula.</p>",
+            "page": "",
+            "margin_top": 20,
+            "margin_bottom": 0
+          }
+        },
+        "accordion_c7mYBn": {
+          "type": "accordion",
+          "settings": {
+            "column": "col_2",
+            "visibility": "always-display",
+            "heading": "Will it be too strong?",
+            "heading_size": "medium",
+            "icon": "",
+            "filled_icon": false,
+            "collapse_icon": "plus",
+            "display_top_border": true,
+            "content": "<p>Not at all, the strength is balanced. Klone is made to enhance, not overpower. One or two sprays give a smooth, long-lasting scent, and you can always build it up if you prefer something stronger.</p>",
+            "page": "",
+            "margin_top": 20,
+            "margin_bottom": 0
+          }
+        },
+        "accordion_KRmicb": {
+          "type": "accordion",
+          "settings": {
+            "column": "col_2",
+            "visibility": "always-display",
+            "heading": "What does it smell like?",
+            "heading_size": "medium",
+            "icon": "",
+            "filled_icon": false,
+            "collapse_icon": "plus",
+            "display_top_border": true,
+            "content": "<p>Each scent has its own personality, from sweet and flirty to warm and luxurious. All inspired by iconic designer fragrances women love.</p>",
+            "page": "",
+            "margin_top": 20,
+            "margin_bottom": 0
+          }
+        },
+        "accordion_RgWFEN": {
+          "type": "accordion",
+          "settings": {
+            "column": "col_2",
+            "visibility": "always-display",
+            "heading": "Is it safe for sensitive skin?",
+            "heading_size": "medium",
+            "icon": "",
+            "filled_icon": false,
+            "collapse_icon": "plus",
+            "display_top_border": true,
+            "content": "<p>Yes - our formulas are dermatologist-tested, gentle, and made without harsh ingredients.</p>",
+            "page": "",
+            "margin_top": 20,
+            "margin_bottom": 0
+          }
+        },
+        "accordion_xYCpVp": {
+          "type": "accordion",
+          "settings": {
+            "column": "col_2",
+            "visibility": "always-display",
+            "heading": "What if I don't notice a difference",
+            "heading_size": "medium",
+            "icon": "",
+            "filled_icon": false,
+            "collapse_icon": "plus",
+            "display_top_border": true,
+            "content": "<p>We’ve got you. If you’re not feeling more confident, getting noticed, or loving the results, you’re covered by our 30-day money-back guarantee - no questions asked.</p>",
+            "page": "",
+            "margin_top": 20,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_6JQ6A9",
+        "accordion_WNUnzL",
+        "accordion_JYxWkV",
+        "accordion_c7mYBn",
+        "accordion_KRmicb",
+        "accordion_RgWFEN",
+        "accordion_xYCpVp"
+      ],
+      "disabled": true,
+      "name": "Custom columns",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "color_scheme": "custom",
+        "columns_count": 3,
+        "column_gap_desktop": 40,
+        "row_gap_desktop": 40,
+        "desktop_vertical_alignment": "center",
+        "column_gap_mobile": 20,
+        "row_gap_mobile": 18,
+        "mobile_vertical_alignment": "flex-start",
+        "col_1_desktop_width": 12,
+        "col_1_mobile_width": 4,
+        "col_1_visibility": "always-display",
+        "col_2_desktop_width": 6,
+        "col_2_mobile_width": 4,
+        "col_2_visibility": "always-display",
+        "col_3_desktop_width": 6,
+        "col_3_mobile_width": 4,
+        "col_3_visibility": "always-display",
+        "col_4_desktop_width": 4,
+        "col_4_mobile_width": 4,
+        "col_4_visibility": "always-display",
+        "col_5_desktop_width": 3,
+        "col_5_mobile_width": 4,
+        "col_5_visibility": "always-display",
+        "col_6_desktop_width": 3,
+        "col_6_mobile_width": 4,
+        "col_6_visibility": "always-display",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#fbf5f5",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "product_features_mkATVd": {
+      "type": "product-features",
+      "disabled": true,
+      "name": "Product features",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Product features",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "text": "<p>Use this section to hightlight key features and benefits of your product</p>",
+        "button_label": "",
+        "link": "",
+        "button_style_secondary": false,
+        "atc_button_label": "",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "hide_content_on_mobile": false,
+        "mobile_content_position": "top",
+        "content_corner_radius": true,
+        "color_scheme": "custom",
+        "section_color_scheme": "custom",
+        "image": "shopify://shop_images/makes_img_1_6c7af4ac-8d57-4f82-86a0-cdf894c87b82.png",
+        "desktop_image_width": "limited",
+        "image_max_width": 900,
+        "full_page_width": false,
+        "image_corner_radius": false,
+        "mobile_image": "shopify://shop_images/makes_img_mobile.png",
+        "hotspot_open_event": "click",
+        "hotspots_color_scheme": "inverse",
+        "display_hotspots_animation": true,
+        "hotspot_content_color_scheme": "background-1",
+        "hotspot_image_size": "full",
+        "contain_hotspot_modal": false,
+        "hotspot_modal_desktop_width": 340,
+        "hotspot_modal_mobile_width": 200,
+        "bullet_points_color": "inverse",
+        "contain_bullet_points": false,
+        "bullet_point_desktop_width": 400,
+        "bullet_point_mobile_width": 60,
+        "padding_top": 24,
+        "padding_bottom": 0,
+        "custom_colors_background": "rgba(0,0,0,0)",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#121212",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#ffffff",
+        "custom_section_gradient_background": "linear-gradient(180deg, rgba(246, 238, 232, 1), rgba(253, 251, 247, 1) 50%, rgba(177, 119, 66, 1) 100%)"
+      }
+    },
+    "custom_liquid_PTd8Dp": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [],
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "custom_liquid": "<style>\n  @media (max-width: 600px) {\n    .bundle-card-split { flex-direction: column !important; }\n    .bundle-card-photo { width: 100% !important; min-width: unset !important; min-height: 240px !important; border-radius: 10px 10px 0 0 !important; }\n    .bundle-card-copy { width: 100% !important; min-width: unset !important; }\n  }\n</style>\n\n<!-- ── BUNDLE ── -->\n<section id=\"bundle\" style=\"background:#f4eadf;padding:4px 24px 48px;\">\n  <div style=\"max-width:640px;margin:0 auto;\">\n    <h2 style=\"font-family:'DM Sans',sans-serif;font-size:clamp(26px,6vw,38px);font-weight:700;color:#1A1A1A;text-align:center;margin-bottom:10px;line-height:1.2;\">Try Klone Scents Today</h2>\n    <p style=\"text-align:center;font-size:15px;line-height:1.6;color:#2D2D2D;margin-bottom:32px;\"><em style=\"color:#B17742;font-style:italic;font-weight:700;\">Join 250,000+ men</em> who stopped overpaying for designer scents.</p>\n\n    <div style=\"border:1.5px dashed #1A1A1A;border-radius:12px;position:relative;padding-top:0;background:#fff;\">\n      <!-- Floating badge -->\n      <div style=\"position:absolute;top:-18px;left:50%;transform:translateX(-50%);background:#B17742;color:#fff;text-transform:uppercase;border-radius:100px;padding:8px 20px;font-weight:900;font-size:13px;letter-spacing:1px;white-space:nowrap;\">\n        ✨ FLASH SALE — LIMITED TIME\n      </div>\n      <!-- Split layout -->\n      <div class=\"bundle-card-split\" style=\"display:flex;flex-direction:row;flex-wrap:wrap;\">\n        <!-- Photo -->\n        <div class=\"bundle-card-photo\" style=\"width:50%;min-width:160px;background:#d9d9d9;display:flex;align-items:center;justify-content:center;overflow:hidden;border-radius:10px 0 0 10px;\">\n          <img src=\"https://d2xsxph8kpxj0f.cloudfront.net/310519663535543314/ceA6bYsNrAGZejW3Ep252W/bundle-product-photo_c5b88a14.jpg\" alt=\"Klone Scents bottles\" style=\"width:100%;height:100%;object-fit:cover;display:block;\" />\n        </div>\n        <!-- Copy -->\n        <div class=\"bundle-card-copy\" style=\"width:50%;min-width:200px;padding:28px 20px;box-sizing:border-box;display:flex;flex-direction:column;gap:12px;flex:1;\">\n          <div style=\"display:flex;align-items:center;gap:8px;\">\n            <div style=\"flex:1;height:1px;background:rgba(0,0,0,0.12 );\"></div>\n            <div style=\"font-size:12px;font-weight:800;text-transform:uppercase;text-align:center;line-height:1.4;color:#1A1A1A;\">SPECIAL OFFER TODAY ONLY — <span style=\"color:#c8202f;\">DON'T EVER PAY $300+ AGAIN</span></div>\n            <div style=\"flex:1;height:1px;background:rgba(0,0,0,0.12);\"></div>\n          </div>\n          <h2 style=\"font-family:'DM Sans',sans-serif;font-size:22px;font-weight:900;line-height:1.2;color:#1A1A1A;margin:0;text-align:center;\">\n            <span style=\"color:#c8202f;\">BUY 2 GET 1 FREE </span>FOR A LIMITED TIME ONLY\n          </h2>\n          <p style=\"font-size:13px;line-height:1.5;color:#2D2D2D;margin:0;\">This limited-time deal is in high demand and stock is selling out faster than expected.</p>\n          <a href=\"#\" style=\"display:flex;align-items:center;justify-content:center;gap:8px;padding:18px 16px;background:#B17742;color:#fff;border-radius:8px;font-family:'DM Sans',sans-serif;font-weight:900;font-size:16px;text-decoration:none;text-align:center;line-height:1.2;\">\n            <span>SHOP THE SALE</span>\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z\" clip-rule=\"evenodd\" /></svg>\n          </a>\n          <div style=\"display:flex;justify-content:center;align-items:center;font-size:12px;font-weight:800;text-transform:uppercase;gap:4px;\">\n            DEAL ENDING IN: <span id=\"bundleTimer\" style=\"color:#c8202f;margin-left:4px;\">Loading...</span>\n          </div>\n          <div style=\"background:#fff6ee;border:1px dashed #ffedd7;border-radius:4px;padding:10px 8px;display:flex;justify-content:center;align-items:center;font-size:12px;color:#2D2D2D;gap:4px;flex-wrap:wrap;\">\n            <span>Sellout Risk: <strong>High</strong></span>\n            <span style=\"margin:0 6px;color:#aaa;\">|</span>\n            <span><strong>Fast &amp; Free</strong> shipping</span>\n          </div>\n          <p style=\"font-size:12px;text-align:center;color:#5A5A5A;margin:0;\">Try Klone today with a 30-Day Money-Back Guarantee!</p>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n\n<script>\n(function( ) {\n  // Timer resets to 18 hours 24 minutes each time the page loads\n  // To make it persist across reloads, we store the end time in sessionStorage\n  var storageKey = 'klone_bundle_timer_end';\n  var totalSeconds = 18 * 3600 + 24 * 60; // 18:24:00\n  var endTime = sessionStorage.getItem(storageKey);\n\n  if (!endTime) {\n    endTime = Date.now() + totalSeconds * 1000;\n    sessionStorage.setItem(storageKey, endTime);\n  } else {\n    endTime = parseInt(endTime, 10);\n  }\n\n  function updateTimer() {\n    var remaining = Math.floor((endTime - Date.now()) / 1000);\n    if (remaining <= 0) {\n      // Reset timer when it hits zero\n      endTime = Date.now() + totalSeconds * 1000;\n      sessionStorage.setItem(storageKey, endTime);\n      remaining = totalSeconds;\n    }\n    var h = Math.floor(remaining / 3600);\n    var m = Math.floor((remaining % 3600) / 60);\n    var s = remaining % 60;\n    var display = (h < 10 ? '0' : '') + h + ':' + (m < 10 ? '0' : '') + m + ':' + (s < 10 ? '0' : '') + s;\n    var el = document.getElementById('bundleTimer');\n    if (el) el.textContent = display;\n  }\n\n  updateTimer();\n  setInterval(updateTimer, 1000);\n})();\n</script>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_columns_njJFMB": {
+      "type": "custom-columns",
+      "blocks": {
+        "heading_3VRirT": {
+          "type": "heading",
+          "settings": {
+            "column": "col_1",
+            "visibility": "always-display",
+            "heading": "Frequently Asked Questions",
+            "title_highlight_color": "#b17742",
+            "heading_size": "h1",
+            "alignment": "center",
+            "mobile_alignment": "mobile-center",
+            "margin_top": 20,
+            "margin_bottom": 20
+          }
+        },
+        "accordion_8apCbK": {
+          "type": "accordion",
+          "settings": {
+            "column": "col_2",
+            "visibility": "always-display",
+            "heading": "Will the perfume actually last all day?",
+            "heading_size": "medium",
+            "icon": "",
+            "filled_icon": false,
+            "collapse_icon": "plus",
+            "display_top_border": true,
+            "content": "<p>Of course. It lasts up to 12 hours without the need to reapply.</p><p>Our formulas use a 25% perfume oil concentration, higher than most luxury perfumes, to make sure the scent trail stays on your skin and clothes for hours. </p>",
+            "page": "",
+            "margin_top": 20,
+            "margin_bottom": 0
+          }
+        },
+        "accordion_8aDPLY": {
+          "type": "accordion",
+          "settings": {
+            "column": "col_2",
+            "visibility": "always-display",
+            "heading": "Will it be too strong?",
+            "heading_size": "medium",
+            "icon": "",
+            "filled_icon": false,
+            "collapse_icon": "plus",
+            "display_top_border": true,
+            "content": "<p>Not at all. We recommend spraying about 4-8 times all along our pulse points and clothing. That gives you a smooth, balanced scent that lasts without overpowering. You can always build it up if you prefer something stronger.<br/></p>",
+            "page": "",
+            "margin_top": 20,
+            "margin_bottom": 0
+          }
+        },
+        "accordion_VJrTxd": {
+          "type": "accordion",
+          "settings": {
+            "column": "col_2",
+            "visibility": "always-display",
+            "heading": "Does it really smell like the original?",
+            "heading_size": "medium",
+            "icon": "",
+            "filled_icon": false,
+            "collapse_icon": "plus",
+            "display_top_border": true,
+            "content": "<p>We aim for an identical match.</p><p>Our perfumers have spent years studying and deconstructing the world's most iconic fragrances. They know exactly how each scent is built and they recreate it with the same precision, using premium ingredients from all over the world just like the designers. </p>",
+            "page": "",
+            "margin_top": 20,
+            "margin_bottom": 0
+          }
+        },
+        "accordion_FrY9Tr": {
+          "type": "accordion",
+          "settings": {
+            "column": "col_3",
+            "visibility": "always-display",
+            "heading": "Can I return a perfume if I don’t like the smell? ",
+            "heading_size": "medium",
+            "icon": "",
+            "filled_icon": false,
+            "collapse_icon": "plus",
+            "display_top_border": true,
+            "content": "<p>We actually encourage you to test it. We know buying perfumes online can feel like a gamble, so we offer a<strong> risk-free 30-Day Money-Back Guarantee. </strong></p><p>Give it a couple of sprays, let it settle on your skin, and see how it wears over a few days. If it's not your perfect match, just send back the practically full bottle for a full refund. </p><p>We want you 100% confident in your decision.</p>",
+            "page": "",
+            "margin_top": 20,
+            "margin_bottom": 0
+          }
+        },
+        "accordion_wi6hM7": {
+          "type": "accordion",
+          "settings": {
+            "column": "col_3",
+            "visibility": "always-display",
+            "heading": "Are your perfumes Vegan and Cruelty-Free? ",
+            "heading_size": "medium",
+            "icon": "",
+            "filled_icon": false,
+            "collapse_icon": "plus",
+            "display_top_border": true,
+            "content": "<p>Yes. Every Klone perfume is 100% vegan, cruelty-free, and made without harsh chemicals. </p><p>Our formulas are dermatologist-tested and skin-safe — designed to smell incredible without compromising on what goes into the bottle.</p>",
+            "page": "",
+            "margin_top": 20,
+            "margin_bottom": 0
+          }
+        },
+        "accordion_Ktn4Lr": {
+          "type": "accordion",
+          "settings": {
+            "column": "col_3",
+            "visibility": "always-display",
+            "heading": "What does it smell like?",
+            "heading_size": "medium",
+            "icon": "",
+            "filled_icon": false,
+            "collapse_icon": "plus",
+            "display_top_border": true,
+            "content": "<p>Each scent has its own personality, from sweet and flirty to warm and luxurious. All inspired by iconic designer fragrances women love.</p><p>Click on the Scent Profiles at the top of the page to learn more about each perfume.</p>",
+            "page": "",
+            "margin_top": 20,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_3VRirT",
+        "accordion_8apCbK",
+        "accordion_8aDPLY",
+        "accordion_VJrTxd",
+        "accordion_FrY9Tr",
+        "accordion_wi6hM7",
+        "accordion_Ktn4Lr"
+      ],
+      "custom_css": [
+        ".custom-columns {gap: 0;}",
+        ".custom-columns h2.custom-columns__title.h1 {margin-bottom: 25px;}"
+      ],
+      "name": "Custom columns",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "color_scheme": "custom",
+        "columns_count": 3,
+        "column_gap_desktop": 40,
+        "row_gap_desktop": 40,
+        "desktop_vertical_alignment": "center",
+        "column_gap_mobile": 20,
+        "row_gap_mobile": 18,
+        "mobile_vertical_alignment": "flex-start",
+        "col_1_desktop_width": 12,
+        "col_1_mobile_width": 4,
+        "col_1_visibility": "always-display",
+        "col_2_desktop_width": 6,
+        "col_2_mobile_width": 4,
+        "col_2_visibility": "always-display",
+        "col_3_desktop_width": 6,
+        "col_3_mobile_width": 4,
+        "col_3_visibility": "always-display",
+        "col_4_desktop_width": 4,
+        "col_4_mobile_width": 4,
+        "col_4_visibility": "always-display",
+        "col_5_desktop_width": 3,
+        "col_5_mobile_width": 4,
+        "col_5_visibility": "always-display",
+        "col_6_desktop_width": 3,
+        "col_6_mobile_width": 4,
+        "col_6_visibility": "always-display",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#f6eee8",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "rich_text_8HdieN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Uhyb3n": {
+          "type": "heading",
+          "settings": {
+            "title": "<em><strong>They Tried It. They Felt It.</strong></em> Now They Can't Stop Talking About It.",
+            "title_highlight_color": "#b17742",
+            "heading_size": "h2"
+          }
+        },
+        "text_8kQFCW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Thousands of Men are Finding Their New Go-To Cologne.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Uhyb3n",
+        "text_8kQFCW"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "custom",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "custom_colors_background": "#f6eee8",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "product_content_slider_PFez7i": {
+      "type": "product-content-slider",
+      "blocks": {
+        "slide_ACgd4C": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/masculine_review_cards_v2.jpg"
+          }
+        },
+        "slide_73wEr7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/masculine_review_cards_v1.jpg"
+          }
+        },
+        "slide_WgB6QR": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/masculine_review_cards_v3.jpg"
+          }
+        },
+        "slide_TN9AQ7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/masculine_review_cards_v2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "slide_ACgd4C",
+        "slide_73wEr7",
+        "slide_WgB6QR",
+        "slide_TN9AQ7"
+      ],
+      "name": "Product Content Slider",
+      "settings": {
+        "column_layout": "70-30",
+        "head_content": "",
+        "content_hl_color": "#b17742",
+        "descip_content": "",
+        "bg_color": "#f6eee8",
+        "padding_top": 20,
+        "padding_bottom": 40,
+        "left_padding_l": 32,
+        "left_padding_r": 32,
+        "scroll_speed": 5,
+        "image_gap": 16,
+        "border_radius": 12
+      }
+    },
+    "rich_text_gE8JFq": {
+      "type": "rich-text",
+      "blocks": {
+        "atc_button_RLJE6w": {
+          "type": "atc_button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Try Today Risk Free",
+            "atc_product": "",
+            "atc_skip_cart": false
+          }
+        },
+        "button_byczPM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Try Today Risk Free",
+            "button_link": "#MainContent",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "text_wnkByt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>🕚  30 Day Money Back Guarantee</p>"
+          }
+        }
+      },
+      "block_order": [
+        "atc_button_RLJE6w",
+        "button_byczPM",
+        "text_wnkByt"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "custom",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_colors_background": "#f6eee8",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#b17742",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#b17742"
+      }
+    },
+    "ss_comparison_table_6_KHfaPU": {
+      "type": "ss-comparison-table-6",
+      "blocks": {
+        "list_item_F3mk3f": {
+          "type": "list_item",
+          "disabled": true,
+          "settings": {
+            "text": "Fall asleep quicker"
+          }
+        },
+        "list_item_tqjw8a": {
+          "type": "list_item",
+          "disabled": true,
+          "settings": {
+            "text": "Relax & Restorative sleep"
+          }
+        },
+        "list_item_WiLFFg": {
+          "type": "list_item",
+          "disabled": true,
+          "settings": {
+            "text": "Wake up refreshed"
+          }
+        },
+        "list_item_AF3Uqn": {
+          "type": "list_item",
+          "disabled": true,
+          "settings": {
+            "text": "Plant based"
+          }
+        },
+        "table_row_QdGqPA": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "Lasts all day(12 hours)",
+            "first_column": "",
+            "first_column_icon": "check",
+            "second_column": "",
+            "second_column_icon": "cross",
+            "third_column": "",
+            "third_column_icon": "none",
+            "four_column": "",
+            "four_column_icon": "none"
+          }
+        },
+        "table_row_Xh6amd": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "Gets real compliments",
+            "first_column": "",
+            "first_column_icon": "check",
+            "second_column": "",
+            "second_column_icon": "cross",
+            "third_column": "",
+            "third_column_icon": "none",
+            "four_column": "",
+            "four_column_icon": "none"
+          }
+        },
+        "table_row_3CeR3R": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "Smells just like original",
+            "first_column": "",
+            "first_column_icon": "check",
+            "second_column": "",
+            "second_column_icon": "cross",
+            "third_column": "",
+            "third_column_icon": "none",
+            "four_column": "",
+            "four_column_icon": "none"
+          }
+        },
+        "table_row_hfhthA": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "Skin-safe ingredients",
+            "first_column": "",
+            "first_column_icon": "check",
+            "second_column": "",
+            "second_column_icon": "cross",
+            "third_column": "",
+            "third_column_icon": "none",
+            "four_column": "",
+            "four_column_icon": "none"
+          }
+        },
+        "table_row_rmG8X3": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "High perfume-oil concentration",
+            "first_column": "",
+            "first_column_icon": "check",
+            "second_column": "",
+            "second_column_icon": "cross",
+            "third_column": "",
+            "third_column_icon": "none",
+            "four_column": "",
+            "four_column_icon": "none"
+          }
+        },
+        "table_row_49WxHW": {
+          "type": "table_row",
+          "settings": {
+            "row_heading": "30 Day Money Back Guarantee",
+            "first_column": "",
+            "first_column_icon": "check",
+            "second_column": "",
+            "second_column_icon": "cross",
+            "third_column": "",
+            "third_column_icon": "none",
+            "four_column": "",
+            "four_column_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "list_item_F3mk3f",
+        "list_item_tqjw8a",
+        "list_item_WiLFFg",
+        "list_item_AF3Uqn",
+        "table_row_QdGqPA",
+        "table_row_Xh6amd",
+        "table_row_3CeR3R",
+        "table_row_hfhthA",
+        "table_row_rmG8X3",
+        "table_row_49WxHW"
+      ],
+      "disabled": true,
+      "name": "SS - Comparison Table #6",
+      "settings": {
+        "body_gap": 26,
+        "body_gap_mobile": 8,
+        "content_horizontal_align": "start",
+        "content_horizontal_align_mobile": "center",
+        "heading": "<p><em>How </em><em><strong>Klone</strong></em><em> Outlasts Other Colognes</em></p>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 34,
+        "heading_size_mobile": 28,
+        "heading_height": 140,
+        "text": "",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 18,
+        "text_size_mobile": 18,
+        "text_height": 150,
+        "text_mt": 4,
+        "list_mt": 50,
+        "list_mt_mobile": 20,
+        "list_gap": 26,
+        "list_gap_mobile": 6,
+        "list_hide_mobile": true,
+        "icon_size": 28,
+        "icon_size_mobile": 28,
+        "icon_margin_right": 16,
+        "list_text_custom": false,
+        "list_text_font": "josefin_sans_n4",
+        "list_text_size": 16,
+        "list_text_size_mobile": 16,
+        "list_text_height": 140,
+        "button": "",
+        "button_url": "",
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 18,
+        "button_size_mobile": 18,
+        "button_height": 100,
+        "button_width": 305,
+        "button_mt": 50,
+        "button_mt_mobile": 32,
+        "button_padding_vertical": 16,
+        "button_padding_vertical_mobile": 16,
+        "button_padding_horizontal": 48,
+        "button_padding_horizontal_mobile": 48,
+        "button_radius": 100,
+        "button_border_thickness": 0,
+        "button_style": "non_outline",
+        "button_position_mobile": "bottom",
+        "table_columns": 2,
+        "table_mt_mobile": 14,
+        "table_column_active": "1",
+        "table_radius": 16,
+        "table_border_thickness": 1,
+        "table_heading_image_size": 96,
+        "table_heading_image_size_mobile": 76,
+        "first_heading": "SECTION STORE",
+        "first_heading_image": "shopify://shop_images/43-removebg-preview.png",
+        "second_heading": "Other Brands",
+        "third_heading": "Third",
+        "four_heading": "Fourth",
+        "table_heading_custom": false,
+        "table_heading_font": "assistant_n4",
+        "table_heading_size": 20,
+        "table_heading_size_mobile": 13,
+        "table_heading_height": 100,
+        "table_heading_align": "center",
+        "table_heading_padding_horizontal": 18,
+        "table_heading_padding_horizontal_mobile": 18,
+        "table_heading_padding_vertical": 18,
+        "table_heading_padding_vertical_mobile": 8,
+        "table_row_padding_horizontal": 14,
+        "table_row_padding_horizontal_mobile": 4,
+        "table_row_padding_vertical": 16,
+        "table_row_padding_vertical_mobile": 14,
+        "table_row_heading_width_mobile": 66,
+        "table_row_heading_custom": false,
+        "table_row_heading_font": "assistant_n4",
+        "table_row_heading_size": 12,
+        "table_row_heading_size_mobile": 12,
+        "table_row_heading_height": 130,
+        "table_row_heading_align": "left",
+        "table_row_text_custom": false,
+        "table_row_text_font": "assistant_n4",
+        "table_row_text_size": 20,
+        "table_row_text_size_mobile": 16,
+        "table_row_text_height": 130,
+        "table_row_text_align": "center",
+        "table_row_image_size": 34,
+        "table_row_image_size_mobile": 24,
+        "heading_color": "#000000",
+        "text_color": "#000000",
+        "icon_color": "#000000",
+        "list_text_color": "#000000",
+        "button_color": "#ffffff",
+        "button_hover_color": "#dad0ff",
+        "button_bg_color": "#b17742",
+        "button_bg_hover_color": "#b17742",
+        "button_border_color": "#b17742",
+        "button_border_hover_color": "#b17742",
+        "table_border_color": "rgba(0,0,0,0)",
+        "table_active_border_color": "#f3f3f3",
+        "table_heading_color": "#1a192e",
+        "table_heading_active_color": "rgba(0,0,0,0)",
+        "table_heading_bg_active_color": "rgba(0,0,0,0)",
+        "table_column_active_bg_color": "#b17742",
+        "table_row_heading_color": "#1a192e",
+        "table_row_text_color": "#1a192e",
+        "table_row_active_text_color": "#b17742",
+        "background_color": "#fbf5f5",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1,
+        "full_width": false,
+        "content_width": 110,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "custom_liquid_YefN3Q": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "custom_liquid": "<!-- ── GUARANTEE ── -->\n  <section style=\"background:#F5EBE0;padding:29px 20px 48px;text-align:center;\">\n    <div style=\"max-width:600px;margin:0 auto;\">\n      <div style=\"width:80px;height:80px;background:#B17742;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 20px;font-size:36px;\">🛡️</div>\n      <h2 style=\"font-family:'DM Sans',sans-serif;font-size:clamp(22px,6vw,34px);color:#1A1A1A;margin-bottom:16px;line-height:1.2;font-weight:700;\"><em style=\"color:#B17742;font-style:italic;\">Try Risk Free</em> For 30-Days. Money-Back Guarantee</h2>\n      <p style=\"font-size:14px;color:#5A5A5A;line-height:1.8;margin-bottom:28px;\">\n        Still not convinced? We don't expect you to be. That is why <em style=\"color:#B17742;font-style:italic;font-weight:700;\">we take all the risk</em> when you order a bottle today.  <p style=\"font-size:14px;color:#5A5A5A;line-height:1.8;margin-bottom:28px;\">Wear it to work, wear it on a date, wear it around your friends. If you don't love it, if you don't get the compliments you expected — send it back. <em style=\"color:#B17742;font-style:italic;font-weight:700;\">We will give you a full refund, no questions asked. We take the risk so you don't have to.</em></strong>\n      </p>\n      <a href=\"#\" style=\"display:block;background:#B17742;color:#fff;font-family:'DM Sans',sans-serif;font-weight:700;font-size:19px;letter-spacing:0.3px;padding:20px 14px;border-radius:6px;text-decoration:none;text-align:center;width:100%;box-sizing:border-box;line-height:1.3;\">\n        Try It Risk-Free Today\n      </a>\n    </div>\n  </section>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "17219303639102e40b": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_j3jHcx": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "reviews_to_display": "",
+            "default_tab": "automatic",
+            "only_photos": false,
+            "aggregated": true,
+            "limit": 5,
+            "hide_thumbnails": true,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_j3jHcx"
+      ],
+      "settings": {
+        "display_id": false,
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "rich_text_hUrnkD",
+    "review_slider_jBRxHw",
+    "rich_text_Vnb8gB",
+    "custom_columns_jb6LCc",
+    "rich_text_cBzegD",
+    "custom_liquid_hyy9Kj",
+    "custom_liquid_FGdPgB",
+    "custom_liquid_48N97B",
+    "rich_text_p3ELzx",
+    "review_slider_eaXJct",
+    "17636333475094d12b",
+    "rich_text_CwFHae",
+    "custom_liquid_9BrwLM",
+    "custom_columns_7fxgEx",
+    "product_features_mkATVd",
+    "custom_liquid_PTd8Dp",
+    "custom_columns_njJFMB",
+    "rich_text_8HdieN",
+    "product_content_slider_PFez7i",
+    "rich_text_gE8JFq",
+    "ss_comparison_table_6_KHfaPU",
+    "custom_liquid_YefN3Q",
+    "17219303639102e40b"
+  ]
+}
